@@ -13,10 +13,13 @@ h1 {
   font-family: 'Roboto Slab', sans-serif;
   color: white;
   text-align: center;
-  margin-top: 0%;
-  margin-bottom: 0%;
-  padding-top: 7%;
-  padding-bottom: 5%;
+  margin-top: 7%;
+  margin-bottom: 5%;
+  margin-left:30%;
+  margin-right: 30%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: black;
   /*background-color: #F44336;*/
 }
 .subtitle {
@@ -26,7 +29,7 @@ h1 {
 }
 
 span {
-  background-color: #2196F3;
+  /*background-color: #2196F3;*/
 }
 
 body {
