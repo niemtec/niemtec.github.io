@@ -1,0 +1,54 @@
+body {
+  background-color: black;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+h1 {
+  font-size: 5em;
+  margin: 0;
+}
+
+.header {
+  font-family: 'Roboto Slab', sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  padding-top: 7%;
+  padding-bottom: 5%;
+  /*background-color: #F44336;*/
+}
+.subtitle {
+    margin-top: 1%;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+span {
+  background-color: #2196F3;
+}
+
+body {
+      animation: colorchange 25s infinite; /* animation-name followed by duration in seconds*/
+         /* you could also use milliseconds (ms) or something like 2.5s */
+      -webkit-animation: colorchange 25s infinite; /* Chrome and Safari */
+    }
+
+    @keyframes colorchange
+    {
+      0%   {background: #F44336;}
+      25%  {background: #FFEB3B;}
+      50%  {background: #2196F3;}
+      75%  {background: #8BC34A;}
+      100% {background: #F44336;}
+    }
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+      0%   {background: #F44336;}
+      25%  {background: #FFEB3B;}
+      50%  {background: #2196F3;}
+      75%  {background: #8BC34A;}
+      100% {background: #F44336;}
+    }
