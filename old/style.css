@@ -199,6 +199,14 @@ h1 {
 .cover-heading {
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
+/*  background: #333;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;*/
   /*font-variant-caps: small-caps;*/
 }
 
+.navbar.navbar-default.navbar-fixed-top {
+  background-color: #333;
+  border-color: #333;
+}
