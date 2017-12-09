@@ -226,3 +226,7 @@ a:hover {
 	text-align: center;
 	border: none;
 }
+
+.container {
+	min-width: 100%;
+}
