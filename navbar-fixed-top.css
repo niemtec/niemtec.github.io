@@ -181,7 +181,6 @@ a:hover {
  	}
  }
 
-
  /* Fonts*/
  h1 {
  	font-family: 'Roboto', sans-serif;
@@ -191,26 +190,23 @@ a:hover {
  .cover-heading {
  	font-family: 'Roboto', sans-serif;
  	font-weight: normal;
-/*  background: #333;
-  color: white;
-  padding-top: 5px;
-  padding-bottom: 5px;*/
-  /*font-variant-caps: small-caps;*/
 }
 
 .navbar-fixed-top {
 	background-color: #333;
 	border-color: #333;
+	border-bottom: 0px;
 }
 
-.navbar-default .navbar-nav>.active>a {
-	color: #333;
-}
-
-.navbar-default .navbar-nav>.active>a:focus {
+.navbar-default .navbar-nav>li>a {
 	color: white;
 }
 
-.navbar-default .navbar-nav>.active>a:hover {
-	color: white;
+.navbar-default .navbar-nav>li>a:hover {
+	background-color: #ccc;
+	color: black;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	color: black;
 }
