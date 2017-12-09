@@ -6,7 +6,6 @@ body  {
 	text-align: center;
 	/*min-height: 2000px;*/
 	padding-top: 70px;
-	text-shadow: 0 1px 3px rgba(0,0,0,.5)
 }
 
 @keyframes colorchange
@@ -185,6 +184,12 @@ a:hover {
  h1 {
  	font-family: 'Roboto', sans-serif;
  	font-weight: bold;
+	text-shadow: none;
+ }
+
+/* Remove Shadow */
+ p, a, li {
+	 text-shadow: none;
  }
 
  .cover-heading {
@@ -202,11 +207,21 @@ a:hover {
 	color: white;
 }
 
+/* On Hover */
 .navbar-default .navbar-nav>li>a:hover {
-	background-color: #ccc;
+	background-color: white;
 	color: black;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
 	color: black;
+}
+
+
+/* Make the button follow background colours*/
+.btn-group-lg>.btn, .btn-lg {
+	animation: colorchange 25s infinite; /* animation-name followed by duration in seconds*/
+	/* you could also use milliseconds (ms) or something like 2.5s */
+	-webkit-animation: colorchange 25s infinite; /* Chrome and Safari */
+	text-align: center;
 }
