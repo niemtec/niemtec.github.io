@@ -218,10 +218,11 @@ a:hover {
 }
 
 
-/* Make the button follow background colours*/
+/* Make the button follow backgroundP colours*/
 .btn-group-lg>.btn, .btn-lg {
 	animation: colorchange 25s infinite; /* animation-name followed by duration in seconds*/
 	/* you could also use milliseconds (ms) or something like 2.5s */
 	-webkit-animation: colorchange 25s infinite; /* Chrome and Safari */
 	text-align: center;
+	border: none;
 }
