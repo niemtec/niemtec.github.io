@@ -44,6 +44,10 @@ body {
 	vertical-align: middle;
 }
 
+.header img {
+	width: 1vm;
+}
+
 
 /*.square {
 padding-top: 50%;
