@@ -51,8 +51,11 @@ x {
 }
 
 .col-sm-1 {
+	/* TODO: Center horizontally when in phone view mode */
 	margin-left: 1em;
 	margin-right: 1em;
+	margin-bottom: 1em;
+	margin-top: 1em;
 	padding: 0px;
 }
 
