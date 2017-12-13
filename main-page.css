@@ -50,15 +50,6 @@ x {
 	}
 }
 
-.col-sm-1 {
-	/* TODO: Center horizontally when in phone view mode */
-	margin-left: 1em;
-	margin-right: 1em;
-	margin-bottom: 1em;
-	margin-top: 1em;
-	padding: 0px;
-}
-
 body {
 	background-color: #FAFAFA;
 }
@@ -71,6 +62,16 @@ body {
 	margin-bottom: 1em;
 	width: 100%;
 
+}
+
+.button-tiles {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.buttom-tiles img {
+	max-width: 100%;
 }
 
 /* Responsive Headers */
@@ -93,6 +94,13 @@ h2 {
 	font-family: 'Source Serif Pro', serif;
 }
 
+h3 {
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
 @media only screen and (min-width: 300px) {
 	h1 {
 		font-size: 80px;
@@ -100,6 +108,10 @@ h2 {
 
 	h2 {
 		font-size: 15px;
+	}
+
+	.button-tiles img{
+		max-width: 25%;
 	}
 }
 
@@ -111,6 +123,10 @@ h2 {
 	h2 {
 		font-size: 20px;
 	}
+
+	.button-tiles img{
+		max-width: 30%;
+	}
 }
 
 @media only screen and (min-width: 750px) {
@@ -121,6 +137,10 @@ h2 {
 	h2 {
 		font-size: 25px;
 	}
+
+	.button-tiles img{
+		max-width: 35%;
+	}
 }
 
 @media only screen and (min-width: 1200px) {
@@ -130,5 +150,9 @@ h2 {
 
 	h2 {
 		font-size: 30px;
+	}
+
+	.button-tiles img{
+		max-width: 60%;
 	}
 }
