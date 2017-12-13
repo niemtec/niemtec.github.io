@@ -1,0 +1,83 @@
+/* Change backgroudn colour like a rainbow*/
+
+x {
+	animation: colorchange 25s infinite;
+	/* animation-name followed by duration in seconds*/
+	/* you could also use milliseconds (ms) or something like 2.5s */
+	-webkit-animation: colorchange 25s infinite;
+	/* Chrome and Safari */
+	/*text-align: center;*/
+	/*min-height: 2000px;*/
+	padding-top: 70px;
+}
+
+@keyframes colorchange {
+	0% {
+		background: #F44336;
+	}
+	25% {
+		background: #FFEB3B;
+	}
+	50% {
+		background: #2196F3;
+	}
+	75% {
+		background: #8BC34A;
+	}
+	100% {
+		background: #F44336;
+	}
+}
+
+@-webkit-keyframes colorchange
+/* Safari and Chrome - necessary duplicate */
+
+{
+	0% {
+		background: #F44336;
+	}
+	25% {
+		background: #FFEB3B;
+	}
+	50% {
+		background: #2196F3;
+	}
+	75% {
+		background: #8BC34A;
+	}
+	100% {
+		background: #F44336;
+	}
+}
+
+.col-sm-1 {
+	margin-left: 1em;
+	margin-right: 1em;
+	padding: 0px;
+}
+
+body {
+	background-color: #FAFAFA;
+}
+
+.text-bar h1 {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.header img {
+	/* Need to make this scale down with the monitor size */
+	max-width: 400px;
+	margin: 1.5em;
+}
+
+/*.square {
+padding-top: 50%;
+padding-bottom: 50%;
+min-height: 12em;
+max-height: 12em;
+min-width: 11em;
+max-width: 11em;
+background: white;
+
+}*/
