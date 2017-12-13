@@ -63,24 +63,72 @@ body {
 	background-color: #FAFAFA;
 }
 
-.text-bar h1 {
+.logo-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+	margin-bottom: 1em;
+	width: 100%;
+
+}
+
+/* Responsive Headers */
+
+h1 {
+	font-family: 'Source Serif Pro', serif;
+	font-weight: bold;
 	text-align: center;
-	vertical-align: middle;
+	color: black;
+	padding-bottom: 0px;
+	margin-bottom: -15px;
+	/*font-size: 8em;*/
 }
 
-.header img {
-	/* Need to make this scale down with the monitor size */
-	max-width: 400px;
-	margin: 1.5em;
+h2 {
+	text-align: center;
+	font-weight: bold;
+	padding-top: 0px;
+	margin-top: 0px;
+	font-family: 'Source Serif Pro', serif;
 }
 
-/*.square {
-padding-top: 50%;
-padding-bottom: 50%;
-min-height: 12em;
-max-height: 12em;
-min-width: 11em;
-max-width: 11em;
-background: white;
+@media only screen and (min-width: 300px) {
+	h1 {
+		font-size: 80px;
+	}
 
-}*/
+	h2 {
+		font-size: 15px;
+	}
+}
+
+@media only screen and (min-width: 500px) {
+	h1 {
+		font-size: 100px;
+	}
+
+	h2 {
+		font-size: 20px;
+	}
+}
+
+@media only screen and (min-width: 750px) {
+	h1 {
+		font-size: 120px;
+	}
+
+	h2 {
+		font-size: 25px;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	h1 {
+		font-size: 140px;
+	}
+
+	h2 {
+		font-size: 30px;
+	}
+}
