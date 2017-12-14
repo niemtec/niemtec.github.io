@@ -70,6 +70,15 @@ body {
 	max-width: 100%;
 }
 
+/* Footer Settings */
+
+.footer {
+	background-color: white;
+	font-family: 'Roboto Slab', serif;
+	text-transform: lowercase;
+	text-align: center;
+}
+
 /* Responsive Headers */
 
 h1 {
