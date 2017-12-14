@@ -1,6 +1,6 @@
 /* Change backgroudn colour like a rainbow*/
 
-x {
+body {
 	animation: colorchange 25s infinite;
 	/* animation-name followed by duration in seconds*/
 	/* you could also use milliseconds (ms) or something like 2.5s */
@@ -50,10 +50,6 @@ x {
 	}
 }
 
-body {
-	background-color: #FAFAFA;
-}
-
 .logo-block {
 	display: block;
 	margin-left: auto;
@@ -80,7 +76,7 @@ h1 {
 	font-family: 'Source Serif Pro', serif;
 	font-weight: bold;
 	text-align: center;
-	color: black;
+	color: white;
 	padding-bottom: 0px;
 	margin-bottom: -15px;
 	/*font-size: 8em;*/
@@ -97,7 +93,7 @@ h2 {
 h3 {
 	font-family: 'Roboto Slab', serif;
 	text-align: center;
-	font-weight: bold;
+	/* font-weight: bold; */
 	text-transform: uppercase;
 }
 
