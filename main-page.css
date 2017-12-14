@@ -70,6 +70,14 @@ body {
 	max-width: 100%;
 }
 
+/* Navbar Settings */
+
+.navbar-brand {
+	font-family: 'Source Serif Pro', serif;
+	font-weight: bold;
+	font-size: 2em;
+}
+
 /* Footer Settings */
 
 .footer {
