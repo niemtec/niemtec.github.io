@@ -78,14 +78,18 @@ body {
 	font-size: 2em;
 }
 
+
+
 /* Footer Settings */
 
 .footer {
 	background-color: white;
 	font-family: 'Roboto Slab', serif;
-	text-transform: lowercase;
-	text-align: center;
+		text-align: center;
 }
+
+
+
 
 /* Responsive Headers */
 
