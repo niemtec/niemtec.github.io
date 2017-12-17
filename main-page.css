@@ -1,6 +1,6 @@
 /* Change backgroudn colour like a rainbow*/
 
-x {
+body {
 	animation: colorchange 25s infinite;
 	/* animation-name followed by duration in seconds*/
 	/* you could also use milliseconds (ms) or something like 2.5s */
@@ -50,37 +50,126 @@ x {
 	}
 }
 
-.col-sm-1 {
-	/* TODO: Center horizontally when in phone view mode */
-	margin-left: 1em;
-	margin-right: 1em;
+.logo-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
 	margin-bottom: 1em;
-	margin-top: 1em;
-	padding: 0px;
+	width: 100%;
+
 }
 
-body {
-	background-color: #FAFAFA;
+.button-tiles {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.text-bar h1 {
+.buttom-tiles img {
+	max-width: 100%;
+}
+
+/* Navbar Settings */
+
+.navbar-brand {
+	font-family: 'Source Serif Pro', serif;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+
+
+/* Footer Settings */
+
+.footer {
+	background-color: white;
+	font-family: 'Roboto Slab', serif;
+		text-align: center;
+}
+
+
+
+
+/* Responsive Headers */
+
+h1 {
+	font-family: 'Source Serif Pro', serif;
+	font-weight: bold;
 	text-align: center;
-	vertical-align: middle;
+	color: white;
+	padding-bottom: 0px;
+	margin-bottom: -15px;
+	/*font-size: 8em;*/
 }
 
-.header img {
-	/* Need to make this scale down with the monitor size */
-	max-width: 400px;
-	margin: 1.5em;
+h2 {
+	text-align: center;
+	font-weight: bold;
+	padding-top: 0px;
+	margin-top: 0px;
+	font-family: 'Source Serif Pro', serif;
 }
 
-/*.square {
-padding-top: 50%;
-padding-bottom: 50%;
-min-height: 12em;
-max-height: 12em;
-min-width: 11em;
-max-width: 11em;
-background: white;
+h3 {
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+	/* font-weight: bold; */
+	text-transform: uppercase;
+}
 
-}*/
+@media only screen and (min-width: 300px) {
+	h1 {
+		font-size: 80px;
+	}
+
+	h2 {
+		font-size: 15px;
+	}
+
+	.button-tiles img{
+		max-width: 25%;
+	}
+}
+
+@media only screen and (min-width: 500px) {
+	h1 {
+		font-size: 100px;
+	}
+
+	h2 {
+		font-size: 20px;
+	}
+
+	.button-tiles img{
+		max-width: 30%;
+	}
+}
+
+@media only screen and (min-width: 750px) {
+	h1 {
+		font-size: 120px;
+	}
+
+	h2 {
+		font-size: 25px;
+	}
+
+	.button-tiles img{
+		max-width: 35%;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	h1 {
+		font-size: 140px;
+	}
+
+	h2 {
+		font-size: 30px;
+	}
+
+	.button-tiles img{
+		max-width: 100%;
+	}
+}
