@@ -86,7 +86,7 @@ h2 {
 	text-align: center;
 	font-weight: bold;
 	color: #b8b8b8;
-	padding-top: 0px;
+	padding-top:5px;
 	margin-top: 0px;
 	font-family: 'Source Serif Pro', serif;
 }
@@ -152,4 +152,12 @@ h3 {
 	.button-tiles img{
 		max-width: 100%;
 	}
+}
+
+/* Buttons */
+.btn-default {
+	font-family: 'Roboto Slab', serif;
+	border-radius: 0px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
