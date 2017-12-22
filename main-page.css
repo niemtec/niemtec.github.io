@@ -1,53 +1,6 @@
-/* Change backgroudn colour like a rainbow*/
-
 body {
-	animation: colorchange 25s infinite;
-	/* animation-name followed by duration in seconds*/
-	/* you could also use milliseconds (ms) or something like 2.5s */
-	-webkit-animation: colorchange 25s infinite;
-	/* Chrome and Safari */
-	/*text-align: center;*/
-	/*min-height: 2000px;*/
-	padding-top: 70px;
-}
+	/* background-color: #272929; */
 
-@keyframes colorchange {
-	0% {
-		background: #F44336;
-	}
-	25% {
-		background: #FFEB3B;
-	}
-	50% {
-		background: #2196F3;
-	}
-	75% {
-		background: #8BC34A;
-	}
-	100% {
-		background: #F44336;
-	}
-}
-
-@-webkit-keyframes colorchange
-/* Safari and Chrome - necessary duplicate */
-
-{
-	0% {
-		background: #F44336;
-	}
-	25% {
-		background: #FFEB3B;
-	}
-	50% {
-		background: #2196F3;
-	}
-	75% {
-		background: #8BC34A;
-	}
-	100% {
-		background: #F44336;
-	}
 }
 
 .logo-block {
@@ -76,12 +29,22 @@ body {
 	font-family: 'Source Serif Pro', serif;
 	font-weight: bold;
 	font-size: 2em;
-	position: absolute;
-	left:50%;
-	margin-left: -50px !important;  /* 50% of your logo width */
-    display: block;
+	text-align: center;
+	float: none;
 }
 
+.navbar-header {
+    float: left;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+.center-block {
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
 
 
 /* Footer Settings */
