@@ -76,6 +76,10 @@ body {
 	font-family: 'Source Serif Pro', serif;
 	font-weight: bold;
 	font-size: 2em;
+	position: absolute;
+	left:50%;
+	margin-left: -50px !important;  /* 50% of your logo width */
+    display: block;
 }
 
 
