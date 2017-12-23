@@ -1,6 +1,10 @@
 body {
-	background-color: #272929;
+	/* background-color: #272929; */
+	margin-top: 50px;
+}
 
+.dark-background {
+	background-color: #272929;
 }
 
 .logo-block {
@@ -161,4 +165,28 @@ h3 {
 	border-radius: 0px;
 	margin-left: 10px;
 	margin-right: 10px;
+}
+
+/* Typing Animation */
+.typewriter h2 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  /* border-right: .15em solid white; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0em; /* Adjust as needed */
+  animation:
+    typing 6.5s steps(100, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: transparent; }
 }
