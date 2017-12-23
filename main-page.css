@@ -74,6 +74,10 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.navbar-fixed-bottom {
+	margin-bottom: -10px;
+}
+
 
 /* Responsive Headers */
 
@@ -98,9 +102,9 @@ h2 {
 
 h3 {
 	font-family: 'Roboto Slab', serif;
-	text-align: center;
-	/* font-weight: bold; */
-	text-transform: uppercase;
+	text-align: left;
+	font-weight: bold;
+	/* text-transform: uppercase; */
 }
 
 @media only screen and (min-width: 300px) {
@@ -168,7 +172,7 @@ h3 {
 }
 
 /* Typing Animation */
-.typewriter h2 {
+.typewriter {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   /* border-right: .15em solid white; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
