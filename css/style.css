@@ -89,11 +89,11 @@ h2, h3, h5, h6 {
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 4em;
 }
 
 h2 {
-    font-size: 36px;
+    font-size: 2.1em;
     font-weight: normal;
 }
 
@@ -1534,6 +1534,21 @@ header {
 @media only screen and (max-width: 991px) {}
 
 @media only screen and (max-width: 767px) {
+
+    h1 {
+        font-size: 3.5em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    h4 {
+        color: black;
+        margin-left: 5px;
+    }
+
+
   .section-header h2.title {
   		font-size:31.5px;
 	}
@@ -1543,9 +1558,7 @@ header {
   		font-size:14px;
 	}
 
-  .home-content h1 {
-		font-size:36px;
-	}
+
 
   .header-wrapper h2 {
       margin-bottom: 20px;
@@ -1560,6 +1573,20 @@ header {
 }
 
 @media only screen and (max-width: 480px) {
+
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+
+    h4 {
+        color: black;
+        margin-left: 5px;
+    }
+
   #portfolio [class*='col-xs'] {
 		  width:100%;
 	}
@@ -1820,7 +1847,7 @@ header {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
+  letter-spacing: 0em; /* Adjust as needed */
   animation:
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
