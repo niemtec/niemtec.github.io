@@ -22,11 +22,11 @@ General
 
 @font-face {
     font-family: 'fp-1549';
-    src: url('elemental end.eot');
-    src: url('elemental end.eot?#iefix') format('embedded-opentype'),
-    url('elemental end.woff') format('woff'),
-    url('elemental end.ttf') format('truetype'),
-    url('elemental end.svg#fp-1549') format('svg');
+    src: url('/css/elemental end.eot');
+    src: url('/css/elemental end.eot?#iefix') format('embedded-opentype'),
+    url('/css/elemental end.woff') format('woff'),
+    url('/css/elemental end.ttf') format('truetype'),
+    url('/css/elemental end.svg#fp-1549') format('svg');
 }
 
 .fontpro,.fontpro-1549 {
