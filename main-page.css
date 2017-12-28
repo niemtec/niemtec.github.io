@@ -1,6 +1,10 @@
 body {
-	/* background-color: #272929; */
+	background-color: #272929;
 	margin-top: 50px;
+}
+
+p {
+	color: white;
 }
 
 .dark-background {
@@ -35,8 +39,9 @@ body {
 	font-size: 30px;
 	padding: 10px;
 	margin: 0px;
-	text-align: center;
-	float: none;
+	vertical-align: middle;
+	/*text-align: center;
+	float: none;*/
 }
 
 .navbar-header {
