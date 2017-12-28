@@ -1790,9 +1790,9 @@ header {
 
 /* Change background colour like a rainbow*/
 .main-nav>li>a:after, .main-btn {
- animation: colorchange 25s infinite; /* animation-name followed by duration in seconds*/
+ animation: colorchange 15s infinite; /* animation-name followed by duration in seconds*/
  /* you could also use milliseconds (ms) or something like 2.5s */
- -webkit-animation: colorchange 25s infinite; /* Chrome and Safari */
+ -webkit-animation: colorchange 15s infinite; /* Chrome and Safari */
  text-align: center;
  text-shadow: 0 1px 3px rgba(0,0,0,.5)
 }
@@ -1816,6 +1816,7 @@ header {
 }
 
 .typewriter {
+
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */

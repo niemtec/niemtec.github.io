@@ -29,6 +29,7 @@
 	<!-- Custom stlylesheet -->
 	<link type="text/css" rel="stylesheet" href="css/style.css" />
 	<link rel="stylesheet" href="css/ElementalEnd.min.css">
+	<link type="text/css" rel="stylesheet" href="css/animations.css" />
 
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -56,7 +57,9 @@
 					<!-- Logo -->
 					<div class="navbar-brand">
 						<a href="index.html">
-							<h4>NIEMTEC</h4>
+							<div id="object" class="pullDown">
+								<h4>NIEMTEC</h4>
+							</div>
 							<!-- <img class="logo" src="img/logo.png" alt="logo">
 							<img class="logo-alt" src="img/logo-alt.png" alt="logo"> -->
 						</a>
@@ -91,17 +94,17 @@
 					<!-- home content -->
 					<div class="col-md-10 col-md-offset-1">
 						<div class="home-content">
-
 							<h1>NIEMTEC</h1>
 
 							<!-- <img src="img/logo-alt.png" alt="logo"> -->
 							<div class="typewriter">
-							<h2 class="white-text">Research and Development</h2>
+								<h2 class="white-text">Research and Development</h2>
 							</div>
 							<!-- <p class="white-text">Research and Development</p> -->
-
+	<div id="object" class="pullUp">
 							<button class="white-btn">GitHub</button>
 							<button class="main-btn">Blog</button>
+						</div>
 						</div>
 					</div>
 					<!-- /home content -->
@@ -126,10 +129,12 @@
 			<div class="row footer">
 
 				<div class="col-md-12" align="center">
-					<a href="http://www.twitter.com/niemtec"><img src="assets/social-media-icons/twitter.png"></a>
-					<a href="http://www.instagram.com/niemtec"><img src="assets/social-media-icons/instagram.png"></a>
-					<a href="http://www.facebook.com/niemtec"><img src="assets/social-media-icons/facebook.png"></a>
-					<a href="http://www.linkedin.com/in/niemtec/"><img src="assets/social-media-icons/linkedin.png"></a>
+					<div id="object" class="pullUp">
+						<a href="http://www.twitter.com/niemtec"><img src="assets/social-media-icons/twitter.png"></a>
+						<a href="http://www.instagram.com/niemtec"><img src="assets/social-media-icons/instagram.png"></a>
+						<a href="http://www.facebook.com/niemtec"><img src="assets/social-media-icons/facebook.png"></a>
+						<a href="http://www.linkedin.com/in/niemtec/"><img src="assets/social-media-icons/linkedin.png"></a>
+					</div>
 				</div>
 
 			</div>
@@ -144,17 +149,6 @@
 	<!-- Back to top -->
 	<div id="back-to-top"></div>
 	<!-- /Back to top -->
-
-	<!-- Preloader -->
-	<div id="preloader">
-		<div class="preloader">
-			<span></span>
-			<span></span>
-			<span></span>
-			<span></span>
-		</div>
-	</div>
-	<!-- /Preloader -->
 
 	<!-- jQuery Plugins -->
 	<script type="text/javascript" src="js/jquery.min.js"></script>
