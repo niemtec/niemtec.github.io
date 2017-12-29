@@ -5,8 +5,17 @@
         {% assign page_paths = site.header_pages | default: default_paths %}
 
         {% if page_paths %}
-        <nav class="site-nav">
-            <h1 align="center">NIEMTEC</h1>
+        <nav id="nav" class="navbar nav-transparent">
+            <div class="container">
+                <div class="navbar-header">
+                    <!-- Logo -->
+                    <div class="navbar-brand">
+                        <a href="http://niemtec.com">
+                            <h1>NIEMTEC</h1>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </nav>
         {% endif %}
     </div>
