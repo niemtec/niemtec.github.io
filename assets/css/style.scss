@@ -38,14 +38,20 @@ navbar-brand-title {
 }
 .navbar-brand {float:none;}
 
+h1, h2, h2, h4, h5, h6 {
+    border-bottom: none;
+}
+
 h1 {
     font-family: 'fp-1549', sans-serif;
     color: #212121;
     margin: 0px;
+    text-align: center;
 }
 
 h2 {
     font-weight: normal;
+    text-align: center;
 }
 
 h3, h4, h5, h6 {
@@ -54,6 +60,7 @@ h3, h4, h5, h6 {
     margin-top: 0px;
     margin-bottom: 20px;
     color: #10161A;
+    text-align: left;
 }
 
 h1 {
