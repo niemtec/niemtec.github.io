@@ -1,129 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
 
-	<title>niemtec</title>
-	<link rel='shortcut icon' type='image/x-icon' href='favicon.ico'/>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-	<!-- Google font -->
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,400|Source+Serif+Pro" rel="stylesheet">
+    <!-- Font Awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-	<!-- Bootstrap -->
-	<link type="text/css" rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- Google Fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
-	<!-- Font Awesome Icon -->
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-
-
-	<!-- Custom stlylesheet -->
-	<link type="text/css" rel="stylesheet" href="assets/css/style.css" />
-	<link type="text/css" rel="stylesheet" href="assets/css/animations.css" />
+    <!-- Other CSS -->
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
-
 <body>
-<!-- Header -->
-<header id="home">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <h4>NIEMTEC</h4>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-	<!-- Background Image -->
-	<div class="bg-img" style="background-image: url('./img/background2.jpeg');">
-		<div class="overlay"></div>
-	</div>
-	<!-- /Background Image -->
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-link">
+                        <a href="http://niemtec.com">Home</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="http://medium.com/niemtec">Blog</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="http://niemtec.com/log">Log</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="http://niemtec.com/jarvis">Jarvis</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="http://github.com/niemtec?tab=repositories">Projects</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-	<!-- Nav -->
-	<nav id="nav" class="navbar nav-transparent">
-		<div class="container">
-			<div class="row">
-			<!-- Logo -->
-			<!-- Collapse nav button -->
-			<div class="navbar-brand">
-				<a href="index.html"><h4>NIEMTEC</h4></a>
-			</div>
+    <div>
+        <div id="particles-js"></div>
+        <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+        <script  src="js/index.js"></script>
+    </div>
+    <div class="vertical-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 main-panel">
+                    <h1>NIEMTEC</h1>
 
-			<div class="nav-collapse">
-				<span></span>
-			</div>
-			<!-- /Collapse nav button -->
-			<!--  Main navigation  -->
-			<ul class="main-nav nav navbar-nav navbar-right">
-				<li><a href="http://niemtec.com">Home</a></li>
-				<li><a href="http://medium.com/niemtec">Blog</a></li>
-				<li><a href="http://niemtec.com/log">Log</a></li>
-				<li><a href="http://niemtec.com/jarvis">Jarvis</a></li>
-				<li><a href="http://github.com/niemtec?tab=repositories">Projects</a></li>
-				<!-- <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="http://niemtec.com/jarvis">Jarvis</a></li>
-                        <li><a href="#">View All Courses</a></li>
-                        <li><a href="#">Chat with a CodeGuide</a></li>
-                    </ul>
-                </li> -->
-			</ul>
-			</div>
-		</div>
-	</nav>
-	<!-- /Nav -->
+                    <div class="typewriter">
+                        <h2 class="white-text">Research and Development</h2>
+                    </div>
+                    <br>
+                    <button type="button" class="btn"><a href="http://code.niemtec.com">Checkout GitHub</a></button>
+                </div>
+            </div>
+        </div>
 
-	<div class="home-wrapper">
-		<div class="container">
-			<div class="row">
-				<!-- home content -->
-				<div class="col-md-10 col-md-offset-1">
-					<div class="home-content">
-						<h1>NIEMTEC</h1>
-						<div class="typewriter">
-							<h2 class="white-text">Research and Development</h2>
-						</div>
-						<div id="object" class="pullUp">
-							<a href="http://code.niemtec.com"><button class="main-btn">Checkout Projects on GitHub &nbsp<i class="fa fa-github" aria-hidden="true"></i></button></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</header>
 
-<!-- Footer -->
-<div class="footer navbar-fixed-bottom">
+        <!-- Footer -->
+        <div class="footer navbar fixed-bottom navbar-light bg-faded">
+            <div class="social-media-bar col-md-12">
+                <a href="http://www.twitter.com/niemtec"><i class="social fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="http://www.instagram.com/niemtec"><i class="social fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="http://www.facebook.com/niemtec"><i class="social fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="http://www.linkedin.com/in/niemtec/"><i class="social fa fa-linkedin" aria-hidden="true"></i></a>
+            </div>
+        </div>
 
-	<!-- Container -->
-	<div class="container">
-
-		<!-- Row -->
-		<div class="row footer">
-			<div class="col-md-12" align="center">
-				<a href="http://www.twitter.com/niemtec"><i class="social fa fa-twitter" aria-hidden="true">&nbsp &nbsp</i></a>
-				<a href="http://www.instagram.com/niemtec"><i class="social fa fa-instagram" aria-hidden="true">&nbsp &nbsp</i></a>
-				<a href="http://www.facebook.com/niemtec"><i class="social fa fa-facebook" aria-hidden="true">&nbsp &nbsp</i></a>
-				<a href="http://www.linkedin.com/in/niemtec/"><i class="social fa fa-linkedin" aria-hidden="true"></i></a>
-			</div>
-		</div>
-		<!-- /Row -->
-
-	</div>
-	<!-- /Container -->
-
-</div>
-<!-- /Footer -->
-
-<!-- Back to top -->
-<div id="back-to-top"></div>
-<!-- /Back to top -->
-
-<!-- jQuery Plugins -->
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
-
-</body>
-
-</html>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+    </html>

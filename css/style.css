@@ -1,0 +1,229 @@
+/* ---- reset ---- */
+html, body {
+    background-color: #212121;
+    height: 100%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1em;
+}
+
+a, a:hover {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 4.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+/*Button Settings */
+.btn {
+    display: inline-block;
+    padding: 10px 35px;
+    margin: 3px;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    -webkit-transition: 0.2s opacity;
+    transition: 0.2s opacity;
+    background: #ffffff;
+    color: #212121;
+}
+
+.btn > a, .btn > a:hover {
+    color: #212121;
+    text-decoration: none;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+/*Navigation Bar Settings */
+.navbar {
+    background-color: #ffffff26 !important;
+}
+
+.navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-brand > h4 {
+    font-size: 1.5em;
+    margin: 0;
+    font-family: 'Elemental', 'Arial', sans-serif;
+}
+
+/* Footer Settings */
+.social-media-bar {
+    text-align: center;
+}
+
+.social-media-bar > a {
+    color: white;
+    font-size: 1.3em;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+
+    display: flex;
+    align-items: center;
+}
+
+/* Main Panel */
+.main-panel {
+    height: 100%;
+    text-align: center;
+    color: white;
+}
+
+.main-panel > h1 {
+    font-family: 'Elemental', 'Arial', sans-serif;
+}
+
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 3em !important;
+    }
+
+    h2 {
+        font-size: 1.2em !important;
+    }
+
+    .navbar-brand > h4 {
+        font-size: 1em;
+    }
+
+    a {
+        font-size: 0.9em;
+    }
+}
+
+
+/* Fonts */
+@font-face {
+    font-family: 'Elemental';
+    src: url('fonts/elemental end.eot');
+    src: url('fonts/elemental end.eot?#iefix') format('embedded-opentype'),
+    url('fonts/elemental end.woff') format('woff'),
+    url('fonts/elemental end.ttf') format('truetype'),
+    url('fonts/elemental end.svg#fp-1549') format('svg');
+}
+
+
+/* Animated Network */
+canvas {
+    display: block;
+    vertical-align: bottom;
+    } /* ---- particles.js container ---- */
+
+    #particles-js {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #212121;
+        background-image: url("");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        } /* ---- stats.js ---- */
+
+        .count-particles {
+            display: none;
+            background: #000022;
+            position: absolute;
+            top: 48px;
+            left: 0;
+            width: 80px;
+            color: #13e8e9;
+            font-size: 0.8em;
+            text-align: left;
+            text-indent: 4px;
+            line-height: 14px;
+            padding-bottom: 2px;
+            font-family: Helvetica, Arial, sans-serif;
+            font-weight: bold;
+        }
+        .js-count-particles {
+            font-size: 1.1em;
+        }
+        #stats,
+        .count-particles {
+            display: none !important;
+            -webkit-user-select: none;
+            margin-top: 5px;
+            margin-left: 5px;
+        }
+        #stats {
+            display: none !important;
+            border-radius: 3px 3px 0 0;
+            overflow: hidden;
+        }
+        .count-particles {
+            display: none !important;
+            border-radius: 0 0 3px 3px;
+        }
+
+        /* Animations */
+        /* Change background colour like a rainbow*/
+        .navbar-nav > li > a:hover, i:hover {
+            animation: font-color-change 15s infinite; /* animation-name followed by duration in seconds*/
+            /* you could also use milliseconds (ms) or something like 2.5s */
+            -webkit-animation: font-color-change 15s infinite; /* Chrome and Safari */
+            text-align: center;
+            /*text-shadow: 0 1px 3px rgba(0,0,0,.5)*/
+        }
+
+        @keyframes font-color-change
+        {
+            0%   {color: #F44336;}
+            25%  {color: #FFEB3B;}
+            50%  {color: #2196F3;}
+            75%  {color: #8BC34A;}
+            100% {color: #F44336;}
+        }
+
+        @-webkit-keyframes font-color-change /* Safari and Chrome - necessary duplicate */
+        {
+            0%   {color: #F44336;}
+            25%  {color: #FFEB3B;}
+            50%  {color: #2196F3;}
+            75%  {color: #8BC34A;}
+            100% {color: #F44336;}
+        }
+
+        .typewriter {
+
+            overflow: hidden; /* Ensures the content is not revealed until the animation */
+            white-space: nowrap; /* Keeps the content on a single line */
+            margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+            letter-spacing: 0; /* Adjust as needed */
+            animation:
+            typing 3.5s steps(40, end),
+            blink-caret .75s step-end infinite;
+        }
+
+        /* The typing effect */
+        @keyframes typing {
+            from { width: 0 }
+            to { width: 100% }
+        }
+
+        /* The typewriter cursor effect */
+        @keyframes blink-caret {
+            from, to { border-color: transparent }
+            50% { border-color: orange; }
+        }
+
+
+        .social {
+            font-size: 20px;
+            color: white;
+        }
