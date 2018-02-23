@@ -4,10 +4,26 @@ body {
 
 /*Navigation Bar Settings */
 .navbar {
-    background-color: #0d47a15c !important;
+    background-color: #ffffff26 !important;
 }
 .navbar-nav > li > a {
     color: white;
+}
+
+.navbar-brand > h4 {
+    font-size: 28px;
+    margin: 0;
+    font-family: elemental;
+}
+
+/* Fonts */
+@font-face {
+    font-family: 'elemental';
+    src: url('fonts/elemental end.eot');
+    src: url('fonts/elemental end.eot?#iefix') format('embedded-opentype'),
+    url('fonts/elemental end.woff') format('woff'),
+    url('fonts/elemental end.ttf') format('truetype'),
+    url('fonts/elemental end.svg#fp-1549') format('svg');
 }
 
 
