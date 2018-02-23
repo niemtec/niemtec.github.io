@@ -2,20 +2,32 @@
 body {
 }
 
+/*Navigation Bar Settings */
+.navbar {
+    background-color: #0d47a15c !important;
+}
+.navbar-nav > li > a {
+    color: white;
+}
+
+
+/* Animated Network */
 canvas {
   display: block;
   vertical-align: bottom;
 } /* ---- particles.js container ---- */
+
 #particles-js {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #181818;
+  background-color: #212121;
   background-image: url("");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
 } /* ---- stats.js ---- */
+
 .count-particles {
   display: none;
   background: #000022;
