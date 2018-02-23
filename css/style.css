@@ -29,6 +29,22 @@ body {
     margin-right: 10px;
 }
 
+.vertical-center {
+    position:fixed;
+top: 50%;
+left: 50%;
+}
+
+/* Main Panel */
+.main-panel {
+    text-align: center;
+    color: white;
+}
+
+.main-panel > h1 {
+    font-family: 'Elemental', 'Arial', sans-serif;
+}
+
 /* Fonts */
 @font-face {
     font-family: 'Elemental';
