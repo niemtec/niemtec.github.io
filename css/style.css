@@ -76,6 +76,7 @@ h2 {
     font-family: 'Elemental', 'Arial', sans-serif !important;
     color: #212121;
     text-transform: uppercase;
+    padding-top: 10px;
 }
 
 .navbar-toggler {
