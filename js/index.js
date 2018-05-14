@@ -9,21 +9,21 @@ particlesJS("particles-js", {
             image: { src: "img/github.svg", width: 100, height: 100 }
         },
         opacity: {
-            value: 0.5,
+            value: 0.8,
             random: false,
-            anim: { enable: false, speed: 1, opacity_min: 0.1, sync: false }
+            anim: { enable: false, speed: 10, opacity_min: 0.1, sync: false }
         },
         size: {
             value: 3,
             random: true,
-            anim: { enable: true, speed: 10, size_min: 0.1, sync: false }
+            anim: { enable: true, speed: 5, size_min: 0.1, sync: false }
         },
         line_linked: {
             enable: true,
             distance: 150,
             color: "#616161",
-            opacity: 0.4,
-            width: 1.2
+            opacity: 0.3,
+            width: 0.2
         },
         move: {
             enable: true,
