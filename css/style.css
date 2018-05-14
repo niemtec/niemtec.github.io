@@ -36,15 +36,15 @@ h2 {
     margin: 3px;
     border: 2px solid transparent;
     -webkit-transition: 0.2s opacity;
-    color: #ffffff;
-    padding: 10px;
-    background-color: #212121d9;
+    color: #000000;
+    padding: 5px;
+    background-color: rgba(204, 204, 204, 0.61);
     border-radius: 2px;
     transition: all 0.5s ease 0s;
 }
 
 .btn > a, .btn > a:hover {
-    color: #ffffff !important;
+    color: #000000 !important;
     text-decoration: none !important;
 }
 
