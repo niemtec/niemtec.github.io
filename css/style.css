@@ -1,297 +1,294 @@
 /* ---- reset ---- */
 html, body {
-    background-color: #0D47A1; /*212121*/
-    height: 100%;
-    font-family: 'Montserrat', serif;
-    font-size: 1em;
+  background-color: #0D47A1; /*212121*/
+  height: 100%;
+  font-family: 'Montserrat', serif;
+  font-size: 1em;
 
-    animation-name: color;
-    -webkit-animation-duration: 60s;
-    -moz-animation-duration: 60s;
-    -o-animation-duration: 60s;
-    animation-duration: 60s;
-    animation-iteration-count: infinite;
+  animation-name: color;
+  -webkit-animation-duration: 60s;
+  -moz-animation-duration: 60s;
+  -o-animation-duration: 60s;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes color {
-    /*Dark*/
-    0% {
-        background-color: #212121;
-    }
-    /*Blue*/
-    12.5% {
-        background: #0d47a1;
-    }
-    /*Red*/
-    25% {
-        background-color: #DD2C00;
-    }
-    /*Orange*/
-    37.5% {
-        background-color: #EF6C00;
-    }
-
-    /*Yellow*/
-    50% {
-        background-color: #FFD600;
-    }
-
-    /*Green*/
-    62.5% {
-        background-color: #689F38;
-    }
-
-    /*Blue*/
-    75% {
-        background-color: #0d47a1;
-    }
-
-    /*Indigo*/
-    87.5% {
+  /*Dark*/
+  0% {
+    background-color: #212121;
+  }
+  /*Blue*/
+  12.5% {
+    background: #0d47a1;
+  }
+  /*Red*/
+  25% {
+    background-color: #DD2C00;
+  }
+  /*Orange*/
+  37.5% {
+    background-color: #EF6C00;
+  }
+  /*Yellow*/
+  50% {
+    background-color: #FBC02D;
+  }
+  /*Green*/
+  62.5% {
+    background-color: #689F38;
+  }
+  /*Blue*/
+  75% {
+    background-color: #0d47a1;
+  }
+  /*Indigo*/
+  87.5% {
     background-color: #283593;
-    }
-
-    /*Dark*/
-    100% {
-        background-color: #212121;
-    }
+  }
+  /*Dark*/
+  100% {
+    background-color: #212121;
+  }
 }
 
 a, a:visited {
-    text-decoration: none;
-    color: #212121 !important;
+  text-decoration: none;
+  color: #212121 !important;
 }
 
 a:hover {
-    color: #1a73e8 !important;
-    height: 100%;
-    text-decoration: none !important;
+  color: #1a73e8 !important;
+  height: 100%;
+  text-decoration: none !important;
 }
 
 h1 {
-    font-family: 'Elemental', 'Arial', sans-serif;
-    font-size: 7em;
-    color: #ffffff !important;
+  font-family: 'Elemental', 'Arial', sans-serif;
+  font-size: 7em;
+  color: #ffffff !important;
 }
 
 h2 {
-    font-family: 'Roboto Slab', serif;
-    font-size: 1.8em;
-    font-weight: 500;
-    color: #212121;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.8em;
+  font-weight: 500;
+  color: #212121;
 }
 
 /*Button Settings */
 .btn {
-    display: inline-block;
-    margin: 3px;
-    border: 2px solid transparent;
-    -webkit-transition: 0.2s opacity;
-    color: #fdfbf6;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: rgba(238, 238, 238, 0);
-    border-radius: 2px;
-    transition: all 0.5s ease 0s;
-    text-transform: uppercase;
-    font-family: 'Montserrat', serif;
-    letter-spacing: 5px;
+  display: inline-block;
+  margin: 3px;
+  border: 2px solid transparent;
+  -webkit-transition: 0.2s opacity;
+  color: #fdfbf6;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgba(238, 238, 238, 0);
+  border-radius: 2px;
+  transition: all 0.5s ease 0s;
+  text-transform: uppercase;
+  font-family: 'Montserrat', serif;
+  letter-spacing: 5px;
 }
 
 .btn > a, .btn > a:hover {
-    color: #ffffff !important;
-    text-decoration: none !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
 }
 
 .btn:hover {
-    background-color: rgba(255, 255, 255, 0.25);
-    transition: all 0.5s ease 0s;
+  background-color: rgba(255, 255, 255, 0.25);
+  transition: all 0.5s ease 0s;
 }
 
 /*Navigation Bar Settings */
 .navbar {
-    background-color: #fff !important;
-    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .12), inset 0 -1px 0 0 #dadce0;
+  background-color: #fff !important;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .12), inset 0 -1px 0 0 #dadce0;
 }
 
 .navbar-nav > li > a {
-    font-family: "Montserrat", sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    height: auto;
-    letter-spacing: .25px;
-    color: #5f6368 !important;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  height: auto;
+  letter-spacing: .25px;
+  color: #5f6368 !important;
 }
 
 .navbar-nav > li > a:hover {
-    color: #1a73e8 !important;
+  color: #1a73e8 !important;
 }
 
 .navbar-brand > h4 {
-    font-family: 'Elemental', 'Arial', sans-serif !important;
-    color: #fdfbf6;
-    text-transform: uppercase;
-    padding-top: 10px;
+  font-family: 'Elemental', 'Arial', sans-serif !important;
+  color: #fdfbf6;
+  text-transform: uppercase;
+  padding-top: 10px;
 }
 
 .navbar-toggler {
-    background-color: #d5d3d0;
+  background-color: #d5d3d0;
 }
 
 /* Footer Settings */
 .social-media-bar, .footer {
-    text-align: center;
-    background-color: transparent !important;
-    box-shadow: none !important;
+  text-align: center;
+  background-color: transparent !important;
+  box-shadow: none !important;
 }
 
 .social-media-bar > a {
-    color: black !important;
-    font-size: 1.3em;
-    margin-left: 10px;
-    margin-right: 10px;
+  color: black !important;
+  font-size: 1.3em;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .vertical-center {
-    min-height: 100%; /* Fallback for browsers do NOT support vh unit */
-    min-height: 100vh; /* These two lines are counted as one :-)       */
+  min-height: 100%; /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
 
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 /* Main Panel */
 .main-panel {
-    height: 100%;
-    text-align: center;
-    color: white;
+  height: 100%;
+  text-align: center;
+  color: white;
 }
 
 .main-panel > h1 {
-    font-family: 'Elemental', 'Arial', sans-serif;
+  font-family: 'Elemental', 'Arial', sans-serif;
 }
 
 @media (max-width: 576px) {
-    h1 {
-        font-size: 4em !important;
-    }
+  h1 {
+    font-size: 4em !important;
+  }
 
-    h2 {
-        font-size: 1.2em !important;
-    }
+  h2 {
+    font-size: 1.2em !important;
+  }
 
-    .navbar-brand > h4 {
-        font-size: 1em;
-    }
+  .navbar-brand > h4 {
+    font-size: 1em;
+  }
 
-    a {
-        font-size: 0.9em;
-    }
+  a {
+    font-size: 0.9em;
+  }
 
-    .btn {
-        width: 100%;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
+  .btn {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 }
 
 /* Fonts */
 @font-face {
-    font-family: 'Elemental';
-    src: url('fonts/elemental end.eot');
-    src: url('fonts/elemental end.eot?#iefix') format('embedded-opentype'),
-    url('fonts/elemental end.woff') format('woff'),
-    url('fonts/elemental end.ttf') format('truetype'),
-    url('fonts/elemental end.svg#fp-1549') format('svg');
+  font-family: 'Elemental';
+  src: url('fonts/elemental end.eot');
+  src: url('fonts/elemental end.eot?#iefix') format('embedded-opentype'),
+  url('fonts/elemental end.woff') format('woff'),
+  url('fonts/elemental end.ttf') format('truetype'),
+  url('fonts/elemental end.svg#fp-1549') format('svg');
 }
 
 /* Animated Network */
 canvas {
-    display: block;
-    vertical-align: bottom;
+  display: block;
+  vertical-align: bottom;
 }
 
 /* ---- particles.js container ---- */
 
 #particles-js {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
 /* ---- stats.js ---- */
 
 .count-particles {
-    display: none;
+  display: none;
 }
 
 .js-count-particles {
-    font-size: 1.1em;
+  font-size: 1.1em;
 }
 
 #stats,
 .count-particles {
-    display: none !important;
+  display: none !important;
 }
 
 #stats {
-    display: none !important;
+  display: none !important;
 }
 
 .count-particles {
-    display: none !important;
+  display: none !important;
 }
+
 .unselectable {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
+
 /* Animations */
 
 
 .typewriter {
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: 0; /* Adjust as needed */
-    animation: typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0; /* Adjust as needed */
+  animation: typing 3.5s steps(40, end),
+  blink-caret .75s step-end infinite;
 }
 
 /* The typing effect */
 @keyframes typing {
-    from {
-        width: 0
-    }
-    to {
-        width: 100%
-    }
+  from {
+    width: 0
+  }
+  to {
+    width: 100%
+  }
 }
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
-    from, to {
-        border-color: transparent
-    }
-    50% {
-        border-color: orange;
-    }
+  from, to {
+    border-color: transparent
+  }
+  50% {
+    border-color: orange;
+  }
 }
 
 .social {
-    font-size: 20px;
-    color: #fdfbf6;
+  font-size: 20px;
+  color: #fdfbf6;
 }
 
 .social:hover {
-    color: #9E9E9E;
+  color: #9E9E9E;
 }
