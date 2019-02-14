@@ -6,20 +6,52 @@ html, body {
     font-size: 1em;
 
     animation-name: color;
-    -webkit-animation-duration: 30s;
-    -moz-animation-duration: 30s;
-    -o-animation-duration: 30s;
-    animation-duration: 30s;
+    -webkit-animation-duration: 60s;
+    -moz-animation-duration: 60s;
+    -o-animation-duration: 60s;
+    animation-duration: 60s;
     animation-iteration-count: infinite;
 }
 
 @keyframes color {
+    /*Dark*/
     0% {
         background-color: #212121;
     }
+    /*Blue*/
+    12.5% {
+        background: #0d47a1;
+    }
+    /*Red*/
+    25% {
+        background-color: #DD2C00;
+    }
+    /*Orange*/
+    37.5% {
+        background-color: #EF6C00;
+    }
+
+    /*Yellow*/
     50% {
+        background-color: #FFD600;
+    }
+
+    /*Green*/
+    62.5% {
+        background-color: #689F38;
+    }
+
+    /*Blue*/
+    75% {
         background-color: #0d47a1;
     }
+
+    /*Indigo*/
+    87.5% {
+    background-color: #283593;
+    }
+
+    /*Dark*/
     100% {
         background-color: #212121;
     }
