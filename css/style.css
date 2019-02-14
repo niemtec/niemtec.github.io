@@ -4,6 +4,25 @@ html, body {
     height: 100%;
     font-family: 'Montserrat', serif;
     font-size: 1em;
+
+    animation-name: color;
+    -webkit-animation-duration: 30s;
+    -moz-animation-duration: 30s;
+    -o-animation-duration: 30s;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes color {
+    0% {
+        background-color: #212121;
+    }
+    50% {
+        background-color: #0d47a1;
+    }
+    100% {
+        background-color: #212121;
+    }
 }
 
 a, a:visited {
