@@ -1,33 +1,33 @@
 particlesJS("particles-js", {
   particles: {
     number: {value: 100, density: {enable: true, value_area: 900}},
-    color: {value: "#ecf0f1"},
+    color: {value: "#61dafb"},
     shape: {
       type: "circle",
-      stroke: {width: 0, color: "#ecf0f1"},
+      stroke: {width: 0, color: "#61dafb"},
       polygon: {nb_sides: 5},
       // image: { src: "img/github.svg", width: 100, height: 100 }
     },
     opacity: {
-      value: 0.8,
+      value: 0.9,
       random: false,
-      anim: {enable: false, speed: 10, opacity_min: 0.5, sync: false}
+      anim: {enable: false, speed: 10, opacity_min: 0.2, sync: false}
     },
     size: {
       value: 3,
       random: true,
-      anim: {enable: true, speed: 5, size_min: 0.5, sync: false}
+      anim: {enable: true, speed: 5, size_min: 1.5, sync: false}
     },
     line_linked: {
       enable: true,
       distance: 150,
-      color: "#ecf0f1",
-      opacity: 0.4,
-      width: 0.55
+      color: "#61dafb",
+      opacity: 0.6,
+      width: 0.70
     },
     move: {
       enable: true,
-      speed: 1.0,
+      speed: 0.9,
       direction: "none",
       random: true,
       straight: false,
