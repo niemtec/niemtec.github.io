@@ -1,6 +1,6 @@
 /* ---- reset ---- */
 html, body {
-  background-color: #20232a; /*212121*/
+  background-color: #ffffff; /*212121*/
   height: 100%;
   font-family: 'Montserrat', serif;
   font-size: 1em;
@@ -20,7 +20,7 @@ a:hover {
 h1 {
   font-family: 'Elemental', 'Arial', sans-serif;
   font-size: 7em;
-  color: #ffffff !important;
+  color: #212121 !important;
 }
 
 h2 {
@@ -36,7 +36,7 @@ h2 {
   margin: 3px;
   border: 2px solid transparent;
   -webkit-transition: 0.2s opacity;
-  color: #fdfbf6;
+  color: #212121;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 20px;
@@ -50,61 +50,17 @@ h2 {
 }
 
 .btn > a, .btn > a:hover {
-  color: #ffffff !important;
+  color: #212121 !important;
   text-decoration: none !important;
 }
 
 .btn:hover {
-  background-color: rgba(97,218,251, 0.31);
+  background-color: rgba(189, 189, 189, 0.31);
   transition: all 0.5s ease 0s;
 }
 
-/*Navigation Bar Settings */
-.navbar {
-  background-color: #fff !important;
-  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .12), inset 0 -1px 0 0 #dadce0;
-}
-
-.navbar-nav > li > a {
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  height: auto;
-  letter-spacing: .25px;
-  color: #5f6368 !important;
-}
-
-.navbar-nav > li > a:hover {
-  color: #1a73e8 !important;
-}
-
-.navbar-brand > h4 {
-  font-family: 'Elemental', 'Arial', sans-serif !important;
-  color: #fdfbf6;
-  text-transform: uppercase;
-  padding-top: 10px;
-}
-
-.navbar-toggler {
-  background-color: #d5d3d0;
-}
-
-/* Footer Settings */
-.social-media-bar, .footer {
-  text-align: center;
-  background-color: transparent !important;
-  box-shadow: none !important;
-}
-
-.social-media-bar > a {
-  color: black !important;
-  font-size: 1.3em;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
 .vertical-center {
-  min-height: 100%; /* Fallback for browsers do NOT support vh unit */
+  /* Fallback for browsers do NOT support vh unit */
   min-height: 100vh; /* These two lines are counted as one :-)       */
 
   display: flex;
@@ -206,57 +162,9 @@ canvas {
   user-select: none;
 }
 
-/* Animations */
 
-
-.typewriter {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: 0; /* Adjust as needed */
-  animation: typing 3.5s steps(40, end),
-  blink-caret .75s step-end infinite;
-}
-
-/* The typing effect */
-@keyframes typing {
-  from {
-    width: 0
-  }
-  to {
-    width: 100%
-  }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to {
-    border-color: transparent
-  }
-  50% {
-    border-color: orange;
-  }
-}
-
-.social {
-  font-size: 20px;
-  color: #fdfbf6;
-}
-
-.social:hover {
-  color: #9E9E9E;
-}
 
 .bowtie img {
   width: 80px;
   padding-bottom: 15px;
-}
-
-.electron-glow {
-  text-shadow: 0px 0px 20px rgba(97,218,251, 0.31);
-  transition: text-shadow 0.5s ease-in-out;
-}
-
-.electron-glow:hover {
-  text-shadow: 0px 0px 20px #61dafb;
 }
