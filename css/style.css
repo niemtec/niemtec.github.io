@@ -162,9 +162,7 @@ canvas {
   user-select: none;
 }
 
-
-
 .bowtie img {
-  width: 80px;
+  max-width: 4em;
   padding-bottom: 15px;
 }
