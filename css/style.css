@@ -246,3 +246,8 @@ canvas {
 .social:hover {
   color: #9E9E9E;
 }
+
+.bowtie img {
+  width: 80px;
+  padding-bottom: 15px;
+}
