@@ -82,6 +82,10 @@ h2 {
   font-font: 300;
 }
 
+.small {
+    font-variant: small-caps;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 4em !important;
