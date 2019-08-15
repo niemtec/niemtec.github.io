@@ -1,6 +1,6 @@
 /* ---- reset ---- */
 html, body {
-  background-color: #ffffff; /*212121*/
+  background-color: #363537; /*212121*/
   height: 100%;
   font-family: 'Montserrat', serif;
   font-size: 1em;
@@ -18,16 +18,18 @@ a:hover {
 }
 
 h1 {
-  font-family: 'Elemental', 'Arial', sans-serif;
+  /*font-family: 'Elemental', 'Arial', sans-serif;*/
+  font-family: 'Rubik', sans-serif;
   font-size: 7em;
-  color: #212121 !important;
+  font-weight: lighter;
+  color: #ffffff !important;
 }
 
 h2 {
   font-family: 'Roboto Slab', serif;
   font-size: 1.8em;
   font-weight: 500;
-  color: #212121;
+  color: #ffffff;
 }
 
 /*Button Settings */
@@ -36,7 +38,7 @@ h2 {
   margin: 3px;
   border: 2px solid transparent;
   -webkit-transition: 0.2s opacity;
-  color: #212121;
+  color: #ffffff;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 20px;
@@ -50,7 +52,7 @@ h2 {
 }
 
 .btn > a, .btn > a:hover {
-  color: #212121 !important;
+  color: #ffffff !important;
   text-decoration: none !important;
 }
 
@@ -71,11 +73,13 @@ h2 {
 .main-panel {
   height: 100%;
   text-align: center;
-  color: white;
+  color: #363537;
 }
 
 .main-panel > h1 {
-  font-family: 'Elemental', 'Arial', sans-serif;
+  /*font-family: 'Elemental', 'Arial', sans-serif;*/
+  font-family: 'Rubik', sans-serif;
+  font-font: 300;
 }
 
 @media (max-width: 576px) {
@@ -163,6 +167,6 @@ canvas {
 }
 
 .bowtie img {
-  max-width: 4em;
+  max-width: 5em;
   padding-bottom: 15px;
 }
