@@ -18,10 +18,8 @@ a:hover {
 }
 
 h1 {
-  /*font-family: 'Elemental', 'Arial', sans-serif;*/
-  font-family: 'Rubik', sans-serif;
   font-size: 7em;
-  font-weight: lighter;
+  font-weight: 300;
   color: #ffffff !important;
 }
 
@@ -79,11 +77,6 @@ h2 {
 .main-panel > h1 {
   /*font-family: 'Elemental', 'Arial', sans-serif;*/
   font-family: 'Rubik', sans-serif;
-  font-font: 300;
-}
-
-.small {
-    font-variant: small-caps;
 }
 
 @media (max-width: 576px) {
@@ -172,5 +165,5 @@ canvas {
 
 .bowtie img {
   max-width: 5em;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
 }
