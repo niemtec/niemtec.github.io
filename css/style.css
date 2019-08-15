@@ -1,6 +1,6 @@
 /* ---- reset ---- */
 html, body {
-  background-color: #0B0C10; /*212121*/
+  background-color: #25274d; /*212121*/
   height: 100%;
   font-family: 'Montserrat', serif;
   font-size: 1em;
@@ -8,11 +8,11 @@ html, body {
 
 a, a:visited {
   text-decoration: none;
-  color: #45A29E !important;
+  color: #29648a !important;
 }
 
 a:hover {
-  color: #66FCF1 !important;
+  color: #2e9cca !important;
   height: 100%;
   text-decoration: none !important;
 }
@@ -48,11 +48,12 @@ h2 {
 
 .btn > a, .btn > a:hover {
   color: #ffffff !important;
+  color: #ffffff !important;
   text-decoration: none !important;
 }
 
 .btn:hover {
-  background-color: rgba(102, 252, 241, 0.31);
+  background-color: rgba(46, 156, 202, 0.31);
   transition: all 0.5s ease 0s;
 }
 
