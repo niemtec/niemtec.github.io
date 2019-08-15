@@ -41,6 +41,64 @@ h2 {
     color: #ffffff;
 }
 
+h4 {
+    font-size: 1.1em;
+    margin: 0;
+    color: #ffffff;
+}
+
+h4 span {
+    color: #2e9cca;
+    background: -webkit-linear-gradient(-45deg, #ffffff, #2e9cca);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientBG 10s ease infinite;
+    height: 100%;
+}
+
+/* Navigation Bar*/
+.navbar-light {
+    background-color: transparent !important;
+}
+
+#navbarResponsive > ul > li > a {
+    transition: all 0.5s ease 0s;
+    color: #ffffff !important;
+    text-transform: uppercase;
+    font-family: 'Montserrat', serif;
+    /*letter-spacing: 5px;*/
+}
+
+#navbarResponsive > ul > li {
+    margin-left: 1em;
+}
+
+#navbarResponsive > ul > li > a:hover {
+    transition: all 0.2s ease 0s;
+    color: #2e9cca !important;
+    text-decoration: none !important;
+    border-style: solid;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding-bottom: 2px;
+    border-width: 2px;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: transparent;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.navbar-toggler-icon {
+    color: #ffffff;
+}
+
+#navbarResponsive > ul {
+    text-align: right;
+}
+
 /*Button Settings */
 .btn {
     display: inline-block;
@@ -103,10 +161,6 @@ h2 {
 
     h2 {
         font-size: 1.2em !important;
-    }
-
-    .navbar-brand > h4 {
-        font-size: 1em;
     }
 
     a {
