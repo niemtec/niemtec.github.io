@@ -1,6 +1,6 @@
 /* ---- reset ---- */
 html, body {
-  background-color: #363537; /*212121*/
+  background-color: #0B0C10; /*212121*/
   height: 100%;
   font-family: 'Montserrat', serif;
   font-size: 1em;
@@ -8,11 +8,11 @@ html, body {
 
 a, a:visited {
   text-decoration: none;
-  color: #212121 !important;
+  color: #45A29E !important;
 }
 
 a:hover {
-  color: #1a73e8 !important;
+  color: #66FCF1 !important;
   height: 100%;
   text-decoration: none !important;
 }
@@ -24,7 +24,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Rubik', serif;
   font-size: 1.8em;
   font-weight: 500;
   color: #ffffff;
@@ -52,7 +52,7 @@ h2 {
 }
 
 .btn:hover {
-  background-color: rgba(189, 189, 189, 0.31);
+  background-color: rgba(102, 252, 241, 0.31);
   transition: all 0.5s ease 0s;
 }
 
