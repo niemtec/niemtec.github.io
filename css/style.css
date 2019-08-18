@@ -26,11 +26,8 @@ h1 {
 }
 
 h1 span {
-    /*color: #2e9cca;*/
     color: #ffffff;
     background-color: #ffffff;
-    /*background-color: #2e9cca;*/
-    /*background: -webkit-linear-gradient(-120deg, #000000, #ffffff);*/
     background-size: 100% 100%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -84,11 +81,7 @@ h4 span {
     color: #2e9cca !important;
     text-decoration: none !important;
     border-style: solid;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
     padding-bottom: 2px;
-    border-width: 2px;
 }
 
 .navbar-light .navbar-toggler {
@@ -110,11 +103,16 @@ h4 span {
     display: inline-block;
     margin: 3px;
     -webkit-transition: 0.2s opacity;
-    color: #ffffff;
+    color: rgba(255,255,255,0.7);
+    background-color: rgba(255,255,255,0.08);
+    border-color: rgba(255,255,255,0.2);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0.3rem;
+    transition: color 0.2s, background-color 0.2s, border-color 0.2s;
     padding: 5px 15px;
-    background-color: rgba(46, 156, 204, 0);
-    border-radius: 5px;
-    transition: all 0.5s ease 0s;
+    /*border-radius: 5px;*/
+    /*transition: all 0.5s ease 0s;*/
     text-transform: uppercase;
     font-family: 'Montserrat', serif;
     letter-spacing: 5px;
@@ -126,7 +124,10 @@ h4 span {
 }
 
 .btn:hover {
-    background-color: rgba(46, 156, 204, 1);
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+    background-color: rgba(255,255,255,0.2);
+    border-color: rgba(255,255,255,0.3);
     transition: all 0.5s ease 0s;
 }
 
@@ -244,37 +245,6 @@ canvas {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-}
-
-@-webkit-keyframes jello-horizontal {
-    0% {
-        -webkit-transform: scale3d(1, 1, 1);
-        transform: scale3d(1, 1, 1);
-    }
-    10% {
-        -webkit-transform: scale3d(1.25, 0.75, 1);
-        transform: scale3d(1.25, 0.75, 1);
-    }
-    20% {
-        -webkit-transform: scale3d(0.75, 1.25, 1);
-        transform: scale3d(0.75, 1.25, 1);
-    }
-    30% {
-        -webkit-transform: scale3d(1.15, 0.85, 1);
-        transform: scale3d(1.15, 0.85, 1);
-    }
-    45% {
-        -webkit-transform: scale3d(0.95, 1.05, 1);
-        transform: scale3d(0.95, 1.05, 1);
-    }
-    55% {
-        -webkit-transform: scale3d(1.05, 0.95, 1);
-        transform: scale3d(1.05, 0.95, 1);
-    }
-    100% {
-        -webkit-transform: scale3d(1, 1, 1);
-        transform: scale3d(1, 1, 1);
-    }
 }
 
 @keyframes jello-horizontal {
@@ -563,10 +533,10 @@ canvas {
   }
   86.1% {
     opacity: 1;
-    text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+    text-shadow: 0 0 120px rgba(255, 255, 255, 0.7), 0 0 240px rgba(255, 255, 255, 0.55), 0 0 440px rgba(255, 255, 255, 0.35), 0 0 400px rgba(255, 255, 255, 0.2);
   }
   100% {
     opacity: 1;
-    text-shadow: 0 0 0px rgba(255, 255, 255, 0.6), 0 0 0px rgba(255, 255, 255, 0.45), 0 0 0px rgba(255, 255, 255, 0.25), 0 0 0px rgba(255, 255, 255, 0.1);
+    text-shadow: 0 0 0 rgba(255, 255, 255, 0.6), 0 0 0 rgba(255, 255, 255, 0.45), 0 0 0 rgba(255, 255, 255, 0.25), 0 0 0 rgba(255, 255, 255, 0.1);
   }
 }
