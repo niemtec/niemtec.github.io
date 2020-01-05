@@ -183,7 +183,7 @@ h4 span {
     letter-spacing: 1.5px;
 }
 
-.main-panel > .question-mark-separator {
+.main-panel > .line-separator {
     display: flex;
     color: #ffffff;
     font-size: 1em;
@@ -191,23 +191,26 @@ h4 span {
     text-transform: uppercase;
     align-items: center;
     text-align: center;
-    margin-left: 15%;
-    margin-right: 15%;
     margin-bottom: 10px;
 }
 
-.main-panel > .question-mark-separator::before, .main-panel > .question-mark-separator::after {
+.main-panel > .line-separator::before, .main-panel > .line-separator::after {
     content: '';
     flex: 1;
     border-bottom: 2px solid #FFFFFF;
 }
 
-.main-panel > .question-mark-separator::before {
+.main-panel > .line-separator::before {
     margin-right: .5em;
 }
 
-.main-panel > .question-mark-separator::after {
+.main-panel > .line-separator::after {
     margin-left: .5em;
+}
+
+.main-panel > .line-separator > i {
+    opacity: 1;
+    animation: fade 4s infinite;
 }
 
 .bowtie img {
@@ -310,37 +313,6 @@ canvas {
     margin-bottom: 0;
 }
 
-@keyframes jello-horizontal {
-    0% {
-        -webkit-transform: scale3d(1, 1, 1);
-        transform: scale3d(1, 1, 1);
-    }
-    10% {
-        -webkit-transform: scale3d(1.25, 0.75, 1);
-        transform: scale3d(1.25, 0.75, 1);
-    }
-    20% {
-        -webkit-transform: scale3d(0.75, 1.25, 1);
-        transform: scale3d(0.75, 1.25, 1);
-    }
-    30% {
-        -webkit-transform: scale3d(1.15, 0.85, 1);
-        transform: scale3d(1.15, 0.85, 1);
-    }
-    45% {
-        -webkit-transform: scale3d(0.95, 1.05, 1);
-        transform: scale3d(0.95, 1.05, 1);
-    }
-    55% {
-        -webkit-transform: scale3d(1.05, 0.95, 1);
-        transform: scale3d(1.05, 0.95, 1);
-    }
-    100% {
-        -webkit-transform: scale3d(1, 1, 1);
-        transform: scale3d(1, 1, 1);
-    }
-}
-
 @keyframes gradientBG {
     0% {
         background-position: 0 50%;
@@ -351,6 +323,11 @@ canvas {
     100% {
         background-position: 0 50%;
     }
+}
+
+@keyframes fade {
+    0%,100% { opacity: 0 }
+    50% { opacity: 1 }
 }
 
 @-webkit-keyframes text-flicker-in-glow {
