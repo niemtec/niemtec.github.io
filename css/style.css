@@ -1,5 +1,5 @@
 html, body {
-    background: linear-gradient(120deg, #155799, #159957);
+    background: linear-gradient(120deg, #1c1c1e, #2c2c2e);
     background-size: 100% 100%;
     animation: gradientBG 30s ease infinite;
     height: 100%;
@@ -44,14 +44,14 @@ h1 span {
 }
 
 h2 {
-    font-family: 'Rubik', serif;
+    font-family: 'Montserrat', serif;
     font-size: 1.8em;
     font-weight: 500;
     color: #ffffff;
 }
 
 h4 {
-    font-size: 1.1em;
+    font-size: 1em;
     margin: 0;
     color: #ffffff;
 }
@@ -164,11 +164,50 @@ h4 span {
     height: 100%;
     text-align: center;
     color: #363537;
+    z-index: 1;
 }
 
 .main-panel > h1 {
     /*font-family: 'Elemental', 'Arial', sans-serif;*/
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 5em;
+}
+
+.main-panel > h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4em;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.main-panel > .question-mark-separator {
+    display: flex;
+    color: #ffffff;
+    font-size: 1em;
+    font-family: 'Scheherazade', serif;
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10px;
+}
+
+.main-panel > .question-mark-separator::before, .main-panel > .question-mark-separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.main-panel > .question-mark-separator::before {
+    margin-right: .5em;
+}
+
+.main-panel > .question-mark-separator::after {
+    margin-left: .5em;
 }
 
 .bowtie img {
@@ -268,6 +307,7 @@ canvas {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    margin-bottom: 0;
 }
 
 @keyframes jello-horizontal {
