@@ -188,7 +188,6 @@ h4 span {
     display: flex;
     color: #ffffff;
     font-size: 1em;
-    font-family: 'Scheherazade', serif;
     text-transform: uppercase;
     align-items: center;
     text-align: center;
@@ -198,7 +197,7 @@ h4 span {
 .main-panel > .line-separator::before, .main-panel > .line-separator::after {
     content: '';
     flex: 1;
-    border-bottom: 2px solid #FFFFFF;
+    border-bottom: 1.5px solid #FFFFFF;
 }
 
 .main-panel > .line-separator::before {
@@ -210,8 +209,9 @@ h4 span {
 }
 
 .main-panel > .line-separator > i {
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
     opacity: 1;
-    animation: fade 4s infinite;
+    animation: fade 5s infinite;
 }
 
 .bowtie img {
@@ -288,7 +288,7 @@ canvas {
 }
 
 .js-count-particles {
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 #stats,
