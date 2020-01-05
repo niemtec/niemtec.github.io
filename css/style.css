@@ -173,6 +173,7 @@ h4 span {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 5em;
+    letter-spacing: 2px;
 }
 
 .main-panel > h2 {
