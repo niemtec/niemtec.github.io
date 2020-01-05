@@ -1,5 +1,5 @@
 html, body {
-    background: linear-gradient(120deg, #155799, #159957);
+    background: linear-gradient(120deg, #1c1c1e, #2c2c2e);
     background-size: 100% 100%;
     animation: gradientBG 30s ease infinite;
     height: 100%;
@@ -44,14 +44,14 @@ h1 span {
 }
 
 h2 {
-    font-family: 'Rubik', serif;
+    font-family: 'Montserrat', serif;
     font-size: 1.8em;
     font-weight: 500;
     color: #ffffff;
 }
 
 h4 {
-    font-size: 1.1em;
+    font-size: 1em;
     margin: 0;
     color: #ffffff;
 }
@@ -164,11 +164,54 @@ h4 span {
     height: 100%;
     text-align: center;
     color: #363537;
+    z-index: 1;
 }
 
 .main-panel > h1 {
     /*font-family: 'Elemental', 'Arial', sans-serif;*/
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 5em;
+    letter-spacing: 2px;
+}
+
+.main-panel > h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4em;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.main-panel > .line-separator {
+    display: flex;
+    color: #ffffff;
+    font-size: 1em;
+    font-family: 'Scheherazade', serif;
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.main-panel > .line-separator::before, .main-panel > .line-separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.main-panel > .line-separator::before {
+    margin-right: .5em;
+}
+
+.main-panel > .line-separator::after {
+    margin-left: .5em;
+}
+
+.main-panel > .line-separator > i {
+    opacity: 1;
+    animation: fade 4s infinite;
 }
 
 .bowtie img {
@@ -268,37 +311,7 @@ canvas {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-}
-
-@keyframes jello-horizontal {
-    0% {
-        -webkit-transform: scale3d(1, 1, 1);
-        transform: scale3d(1, 1, 1);
-    }
-    10% {
-        -webkit-transform: scale3d(1.25, 0.75, 1);
-        transform: scale3d(1.25, 0.75, 1);
-    }
-    20% {
-        -webkit-transform: scale3d(0.75, 1.25, 1);
-        transform: scale3d(0.75, 1.25, 1);
-    }
-    30% {
-        -webkit-transform: scale3d(1.15, 0.85, 1);
-        transform: scale3d(1.15, 0.85, 1);
-    }
-    45% {
-        -webkit-transform: scale3d(0.95, 1.05, 1);
-        transform: scale3d(0.95, 1.05, 1);
-    }
-    55% {
-        -webkit-transform: scale3d(1.05, 0.95, 1);
-        transform: scale3d(1.05, 0.95, 1);
-    }
-    100% {
-        -webkit-transform: scale3d(1, 1, 1);
-        transform: scale3d(1, 1, 1);
-    }
+    margin-bottom: 0;
 }
 
 @keyframes gradientBG {
@@ -311,6 +324,11 @@ canvas {
     100% {
         background-position: 0 50%;
     }
+}
+
+@keyframes fade {
+    0%,100% { opacity: 0 }
+    50% { opacity: 1 }
 }
 
 @-webkit-keyframes text-flicker-in-glow {
