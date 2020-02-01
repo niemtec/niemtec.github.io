@@ -295,6 +295,12 @@ h4 span {
     }
 }
 
+@media (max-width: 350px) {
+    .main-panel {
+        padding: 0 !important;
+    }
+}
+
 /* Fonts */
 @font-face {
     font-family: 'Elemental';
