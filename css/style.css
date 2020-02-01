@@ -223,14 +223,27 @@ h4 span {
     -webkit-animation: jello-horizontal 2s linear infinite;
     animation: jello-horizontal 2s linear infinite;
 }
-
-@media (max-width: 576px) {
+@media (max-width: 992px) {
     h1 {
         font-size: 4em !important;
     }
 
     h2 {
-        font-size: 1.2em !important;
+        font-size: 1.1em !important;
+    }
+
+    .excuse {
+        font-size: 0.7em !important;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3em !important;
+    }
+
+    h2 {
+        font-size: 0.8em !important;
     }
 
     a {
@@ -247,6 +260,44 @@ h4 span {
         max-width: 3em;
         padding-top: 1em;
         padding-bottom: 1em;
+    }
+
+    .fa-circle {
+        font-size: 0.8em !important;
+    }
+}
+
+@media (max-width: 535px) {
+    h1 {
+        font-size: 2em !important;
+    }
+
+    h2 {
+        font-size: 0.5em !important;
+    }
+
+    .fa-circle {
+        font-size: 0.7em !important;
+    }
+}
+
+@media (max-width: 388px) {
+    h1 {
+        font-size: 1.8em !important;
+    }
+
+    h2 {
+        font-size: 0.5em !important;
+    }
+
+    .fa-circle {
+        font-size: 0.5em !important;
+    }
+}
+
+@media (max-width: 350px) {
+    .main-panel {
+        padding: 0 !important;
     }
 }
 
