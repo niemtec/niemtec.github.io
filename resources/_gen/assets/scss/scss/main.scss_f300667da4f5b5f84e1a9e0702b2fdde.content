@@ -749,7 +749,10 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 2px;
-  margin: 0px; }
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: -15px; }
 
 .site-subtitle > h2 {
   font-family: "Montserrat", sans-serif;
@@ -783,7 +786,10 @@ h4 {
 
 @media (max-width: 684px) {
   .site-title > h1 {
-    font-size: 3.5em; }
+    font-size: 3.5em;
+    margin-bottom: -10px; }
+  .site-title > img {
+    max-width: 40%; }
   h1 {
     font-size: 2rem; }
   .site-subtitle > h2 {
@@ -1189,6 +1195,12 @@ hr {
     margin-left: 8px; }
   .button.previous .button__icon {
     margin-right: 8px; }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%; }
 
 .footer {
   padding: 20px 10px;

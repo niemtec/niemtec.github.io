@@ -46,7 +46,10 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 2px;
-  margin: 0px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: -15px;
 }
 
 .site-subtitle > h2 {
@@ -89,6 +92,11 @@ h4 {
 @media #{$media-size-phone} {
   .site-title > h1 {
     font-size: 3.5em;
+    margin-bottom: -10px;
+  }
+
+  .site-title > img {
+    max-width: 40%;
   }
   
   h1 {
