@@ -57,9 +57,12 @@
 
   &-info {
     margin-top: 30px;
-    font-size: .8rem;
+    margin-bottom: 30px;
+    font-size: 0.8em;
     line-height: normal;
     @include dimmed;
+    display: flex;
+   justify-content: space-between;
 
     p {
       margin: .8em 0;

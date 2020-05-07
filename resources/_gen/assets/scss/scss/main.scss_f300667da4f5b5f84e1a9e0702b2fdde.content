@@ -710,7 +710,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: "Crimson Pro", serif;
+  font-family: "Montserrat", sans-serif;
   font-display: auto;
   font-size: 1rem;
   line-height: 1.54;
@@ -972,7 +972,8 @@ hr {
   max-width: 800px;
   text-align: left;
   padding: 20px;
-  margin: 20px auto; }
+  margin: 20px auto;
+  font-family: "Montserrat", sans-serif; }
   @media (max-width: 900px) {
     .posts {
       max-width: 660px; } }
@@ -994,12 +995,14 @@ hr {
     list-style: none; }
   .posts .post-title {
     font-size: 1rem;
+    font-weight: 500;
     margin: 5px 0 5px 0; }
   .posts .post-year {
-    padding-top: 6px;
+    padding-top: 10px;
     margin-right: 1.8em;
-    font-size: 1.6em;
-    opacity: .6; }
+    font-size: 1.5em;
+    opacity: .6;
+    font-family: "Fira Code", monospace; }
     @media (max-width: 900px) {
       .posts .post-year {
         margin: -6px 0 4px; } }
@@ -1009,12 +1012,15 @@ hr {
       display: flex;
       justify-content: space-between;
       align-items: baseline;
-      padding: 12px 0;
+      padding: 0;
+      margin-top: 15px;
+      margin-bottom: 0px;
       text-decoration: none; }
   .posts .post-day {
     flex-shrink: 0;
     margin-left: 1em;
-    opacity: .6; }
+    opacity: .6;
+    font-family: "Fira Code", monospace; }
 
 .post {
   width: 100%;
@@ -1055,9 +1061,12 @@ hr {
         width: 100%; } }
   .post-info {
     margin-top: 30px;
-    font-size: .8rem;
+    margin-bottom: 30px;
+    font-size: 0.8em;
     line-height: normal;
-    opacity: .6; }
+    opacity: .6;
+    display: flex;
+    justify-content: space-between; }
     .post-info p {
       margin: .8em 0; }
     .post-info a:hover {
