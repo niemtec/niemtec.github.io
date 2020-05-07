@@ -631,7 +631,7 @@ a.button {
     display: inline; }
   .logo .logo-short-text {
     display: none; }
-  @media (max-width: 220px) {
+  @media (max-width: 290px) {
     .logo .logo-full-text {
       display: none; }
     .logo .logo-short-text {
@@ -1031,6 +1031,9 @@ hr {
   @media (max-width: 900px) {
     .post {
       max-width: 600px; } }
+  @media (max-width: 480px) {
+    .post .reading-time {
+      display: none; } }
   .post-date:after {
     content: '—'; }
   .post-title {
@@ -1049,7 +1052,9 @@ hr {
     .post-tags a {
       text-decoration: none; }
   .post-content {
-    margin-top: 30px; }
+    margin-top: 30px;
+    font-family: "Crimson Pro", serif;
+    font-size: 1.3em; }
   .post-cover {
     border-radius: 8px;
     margin: 40px -50px;

@@ -9,6 +9,12 @@
     max-width: 600px;
   }
 
+    @media (max-width:480px) {
+    .reading-time {
+      display: none;
+    }
+  }
+
   &-date {
     &:after {
       content: '—';
@@ -41,6 +47,8 @@
 
   &-content {
     margin-top: 30px;
+    font-family: $body-font;
+    font-size: 1.3em;
   }
 
   &-cover {
