@@ -1,9 +1,14 @@
+.dark-theme > div > div> .post {
+  background-color: $dark-background;
+}
+
 .post {
   width: 100%;
   max-width: 800px;
   text-align: left;
   padding: 20px;
   margin: 20px auto;
+  background-color: $light-background;
   
   @media #{$media-size-tablet} {
     max-width: 600px;
@@ -73,7 +78,7 @@
   &-info {
     margin-top: 30px;
     margin-bottom: 30px;
-    font-size: 0.8em;
+    font-size: 0.9em;
     line-height: normal;
     @include dimmed;
     display: flex;

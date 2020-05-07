@@ -12,7 +12,6 @@ rssLimit  = 10  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
 # googleAnalytics = ""
-# disqusShortname = ""
 
 archetypeDir = "archetypes"
 contentDir   = "content"
@@ -38,7 +37,7 @@ disableHugoGeneratorInject = false
   posts = "/posts/:year/:month/:title/"
 
 [author]
-  name = "Jane Doe"
+  name = "J. A. Niemiec"
 
 [blackfriday]
   hrefTargetBlank = true
@@ -51,14 +50,14 @@ disableHugoGeneratorInject = false
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04 -0700"
+  dateformNumTime = "2006-01-02 15:04"
 
   # Metadata mostly used in document's head
   description = "Nice theme for homepages and blogs"
   keywords = ""
   images = [""]
 
-  homeSubtitle = "Hello Friend NG"
+  homeSubtitle = "Let curiosity lead the way"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   # gitUrl = ""

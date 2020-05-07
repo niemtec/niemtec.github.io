@@ -60,7 +60,12 @@
     text-decoration: none;
 
     &:hover {
-      text-decoration: underline;
+      color: $accent-colour;
+      -o-transition:.2s ease-in-out;
+      -ms-transition:.2s ease-in-out;
+      -moz-transition:.2s ease-in-out;
+      -webkit-transition:.2s ease-in-out;
+  transition:.2s ease-in-out;
     }
 
     &:last-of-type {

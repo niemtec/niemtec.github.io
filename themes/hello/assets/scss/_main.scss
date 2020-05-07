@@ -49,7 +49,7 @@ body {
   margin: 0px;
 }
 
-.site-subtitle > p {
+.site-subtitle > h2 {
   font-family: $heading-font;
   font-size: 1.4em;
   font-weight: 300;
@@ -95,6 +95,10 @@ h4 {
     font-size: 2rem;
   }
   
+  .site-subtitle > h2 {
+    font-size: 1rem;
+  }
+
   h2 {
     font-size: 1.4rem;
   }
@@ -110,6 +114,8 @@ h4 {
 
 a {
   color: inherit;
+  text-decoration: underline;
+  text-decoration-color: $accent-colour;
 }
 
 img {
