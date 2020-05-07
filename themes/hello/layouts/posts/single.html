@@ -48,7 +48,7 @@
             {{- with .Params.tags }}
                 <p>
                     <i class="fas fa-tag"></i>  
-                    {{- range . -}}
+                    &nbsp;{{- range . -}}
                           <span class="tag"><a href="{{ "tags/" | absLangURL }}{{ . | urlize }}">{{.}}</a></span>
                     {{- end }}
                 </p>
