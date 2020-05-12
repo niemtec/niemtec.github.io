@@ -1,0 +1,67 @@
+
+/* Animated Network */
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+    position: absolute;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+/* ---- stats.js ---- */
+// .particles-js-canvas-el {
+//     min-width: 100%;
+//     min-height: 100%;
+// }
+.count-particles {
+    display: none;
+}
+
+.js-count-particles {
+    font-size: 1em;
+}
+
+#stats,
+.count-particles {
+    display: none !important;
+}
+
+#stats {
+    display: none !important;
+}
+
+.count-particles {
+    display: none !important;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-bottom: 0;
+}
+
+@keyframes gradientBG {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
