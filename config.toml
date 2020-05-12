@@ -17,7 +17,7 @@ archetypeDir = "archetypes"
 contentDir   = "content"
 dataDir      = "data"
 layoutDir    = "layouts"
-publishDir   = "public"
+publishDir   = "_site"
 
 buildDrafts  = false
 buildFuture  = false
