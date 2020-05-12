@@ -1015,7 +1015,8 @@ hr {
     flex-grow: 1;
     margin: 0;
     padding: 0;
-    list-style: none; }
+    list-style: none;
+    overflow: hidden; }
   .posts .post-title {
     font-size: 1rem;
     font-weight: 500;
