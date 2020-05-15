@@ -752,7 +752,13 @@ body {
   margin-top: 0;
   margin-left: 0;
   margin-right: 0;
-  margin-bottom: -15px; }
+  margin-bottom: -15px;
+  display: inline-block; }
+
+.title-centre {
+  width: 100%;
+  margin: auto;
+  text-align: center; }
 
 .site-subtitle > h2 {
   font-family: "Montserrat", sans-serif;
@@ -760,7 +766,8 @@ body {
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  margin-top: 0; }
+  margin-top: 0;
+  display: inline-block; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
