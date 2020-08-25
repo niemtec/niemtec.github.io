@@ -101,11 +101,13 @@ disableHugoGeneratorInject = false
     identifier = "notes"
     name       = "notes"
     url        = "https://mind-graph-niemtec.netlify.app"
-    
-  #[[menu.main]]
-  #  identifier = "posts"
-  #  name       = "Posts"
-  #  url        = "posts/"
+
+[[menu.main]]
+ identifier = "code"
+  name       = "code"
+  url        = "https://github.com/niemtec"
+
+
   #[[menu.main]]
   #  identifier = "projects"
   #  name       = "projects"
