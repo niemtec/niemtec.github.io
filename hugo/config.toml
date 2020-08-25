@@ -97,10 +97,11 @@ disableHugoGeneratorInject = false
     # logoCursorAnimate  = "2s"
 
 [menu]
-  #[[menu.main]]
-  #  identifier = "about"
-  #  name       = "About"
-  #  url        = "about/"
+  [[menu.main]]
+    identifier = "notes"
+    name       = "notes"
+    url        = "https://mind-graph-niemtec.netlify.app"
+    
   #[[menu.main]]
   #  identifier = "posts"
   #  name       = "Posts"
