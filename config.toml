@@ -23,11 +23,11 @@ publishDir = "docs"
     weight = 3
     url = "https://github.com/niemtec/"
 
-    [[menu.main]]
-    identifier = "Reading List"
-    name = "Reading List"
-    weight = 4
-    url = "/reading-list/"
+    # [[menu.main]]
+    # identifier = "Reading List"
+    # name = "Reading List"
+    # weight = 4
+    # url = "/reading-list/"
 
     [[menu.main]]
     identifier = "About"

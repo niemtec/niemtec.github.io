@@ -246,20 +246,32 @@ img {
   transform: translate(-50%, -50%);
 }
 
+@media screen and (max-width: 380px) {
+  .homepage-content p {
+    font-size: 1.5vw !important;
+    letter-spacing: 1.1px;
+  }
+
+  .homepage-content h1 {
+    font-size: 6vw !important;
+    letter-spacing: 2px;
+  }
+}
+
 .homepage-content p {
   text-align: center;
   font-family: "Montserrat", sans-serif !important;
-  font-size: 1em !important;
-  font-weight: 300 !important;
+  font-size: 2vw;
+  font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 1.1px;
 }
 
 .homepage-content h1 {
   font-family: "Montserrat", sans-serif !important;
-  font-size: 3.5em !important;
+  font-size: 7vw;
   text-transform: uppercase;
-  font-weight: 700 !important;
+  font-weight: 700;
   letter-spacing: 2px;
   text-align: center;
 }
