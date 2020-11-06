@@ -6,7 +6,7 @@
     <div class="post-meta">
       {{- if or .Params.Author .Site.Author.name }}
       {{- .Params.Author | default .Site.Author.name }} · {{ end }}
-      {{ with .Date | default nil }}
+      {{ with .Date }}
       {{ .Format "January 2, 2006" }}
       {{ end }}
     </div>
