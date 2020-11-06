@@ -159,6 +159,13 @@ img {
   display: block;
   line-height: var(--header-height);
 }
+
+@media screen and (max-width: 680px) {
+  .logo {
+    display: none;
+  }
+}
+
 .logo,
 .menu {
   margin-left: var(--gap);
@@ -269,7 +276,7 @@ img {
 
 .homepage-content h1 {
   font-family: "Montserrat", sans-serif !important;
-  font-size: 7vw;
+  font-size: 6vw;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 2px;
