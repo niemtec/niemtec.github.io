@@ -161,8 +161,12 @@ img {
 }
 
 @media screen and (max-width: 680px) {
-  .logo {
-    display: none;
+  .logo a {
+    font-size: 2.5vw !important;
+  }
+
+  .menu a {
+    font-size: 2.5vw !important;
   }
 }
 
