@@ -257,34 +257,26 @@ img {
   transform: translate(-50%, -50%);
 }
 
-@media screen and (max-width: 380px) {
-  .homepage-content p {
-    font-size: 1.5vw !important;
-    letter-spacing: 1.1px;
-  }
-
-  .homepage-content h1 {
-    font-size: 6vw !important;
-    letter-spacing: 2px;
-  }
-}
-
 .homepage-content p {
   text-align: center;
   font-family: "Montserrat", sans-serif !important;
-  font-size: 2vw;
-  font-weight: 300;
+  font-size: 3vw;
+  font-weight: 300 !important;
   text-transform: uppercase;
   letter-spacing: 1.1px;
+    white-space: nowrap;
+  overflow: hidden;
 }
 
 .homepage-content h1 {
   font-family: "Montserrat", sans-serif !important;
-  font-size: 6vw;
+  font-size: 8vw;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 700 !important;
   letter-spacing: 2px;
   text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 /* Post entry
