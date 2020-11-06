@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>learning on NIEMTEC</title>
+    <link>http://localhost:1313/tags/learning/</link>
+    <description>Recent content in learning on NIEMTEC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 06 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Feynman Technique</title>
+      <link>http://localhost:1313/posts/feynman-technique/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/feynman-technique/</guid>
+      <description>Richard Feynman, a famous physicist, thought himself “an ordinary person who studied hard”. He believed that anyone was capable of learning given sufficient effort regardless of the complexity of the subject or percieved level of intelligence.
+ “There is no miracle people. It just happens they got interested in this thing and they learned all this stuff. There is just people.” (R. Feynman)
+ He believed that what made him so accomplished was just the systematic way in which he identified the things he didn’t know and then threw himself into understanding them inside and out.</description>
+    </item>
+    
+  </channel>
+</rss>

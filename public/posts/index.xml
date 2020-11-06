@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on NIEMTEC</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on NIEMTEC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 06 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Feynman Technique</title>
+      <link>http://localhost:1313/posts/feynman-technique/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/feynman-technique/</guid>
+      <description>Richard Feynman, a famous physicist, thought himself “an ordinary person who studied hard”. He believed that anyone was capable of learning given sufficient effort regardless of the complexity of the subject or percieved level of intelligence.
+ “There is no miracle people. It just happens they got interested in this thing and they learned all this stuff. There is just people.” (R. Feynman)
+ He believed that what made him so accomplished was just the systematic way in which he identified the things he didn’t know and then threw himself into understanding them inside and out.</description>
+    </item>
+    
+    <item>
+      <title>Contact Discovery Abuse</title>
+      <link>http://localhost:1313/posts/contact-discovery-abuse/</link>
+      <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/contact-discovery-abuse/</guid>
+      <description>Major messaging platforms such as WhatsApp offer an automated service for synchronising the contents of your address book to determine which of your contacts also use their services. This is used for mapping of your address book contents onto existing users in order for you to be able to send them a message through the service. It’s a necessary part of WhatsApp’s operation as without it, you wouldn’t be able to tell who else in your contact list uses the app.</description>
+    </item>
+    
+    <item>
+      <title>Working from remotely - a permanent revolution?</title>
+      <link>http://localhost:1313/posts/working-remotely/</link>
+      <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/working-remotely/</guid>
+      <description>In the advent of COVID-19 many of us have experienced a drastic shift in our day-to-day work habits as offices across the country closed their shiny glass doors and told their workers to go home. In the days leading up to March 23, office workers could be seen hauling spare monitors, keyboards and work laptops across the tube as more and more businesses prepared for the inevitable lockdown.
+The announcement soon followed and we had to come to terms with the idea that our kitchen tables and cramped desks will become the new base of operations and our primary 9-5 residence.</description>
+    </item>
+    
+    <item>
+      <title>Remote Work Guidelines</title>
+      <link>http://localhost:1313/posts/remote-working-guidelines/</link>
+      <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/remote-working-guidelines/</guid>
+      <description>Remote working has become the new norm in many industries, employers and employees alike had to adapt overnight to working from their bedrooms and kitchen tables. Companies who specialise in the remote worker model, like GitHub, have shared their experiences with those who found their workflow turned upside-down.
+Asynchronous Communications Asynchronous communication is designed to benefit teams which are spread across numerous timezones; with your teammates spread across the globe it can be difficult to figure out the appropriate time to schedule a meeting or get an idea of when you can get a response.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500&family=Fira+Code:wght@400;500;600&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/09096549bd.js" crossorigin="anonymous"></script>
+
+    
+    <title>Feynman Technique - NIEMTEC</title>
+    
+    <meta name="description" content="Richard Feynman, a famous physicist, thought himself “an ordinary person who studied hard”. He believed that anyone was capable of learning given sufficient effort regardless of the complexity of the subject or percieved level of intelligence.
+ “There is no miracle people. It just happens they got interested in this thing and they learned all this stuff. There is just people.” (R. Feynman)
+ He believed that what made him so accomplished was just the systematic way in which he identified the things he didn’t know and then threw himself into understanding them inside and out.">
+    <meta name="author" content="">
+    
+    <link href="http://localhost:1313/an-old-hope.min.css" rel="stylesheet">
+    <link href="http://localhost:1313/style.css" rel="stylesheet">
+    <link href="http://localhost:1313/custom.css" rel="stylesheet">
+    
+    <link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+    <link rel="icon" href="http://localhost:1313/favicon.ico">
+    <meta name="generator" content="Hugo 0.78.1" />
+    
+    
+    
+    <script>
+      function setTheme() {
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          document.body.classList.add('dark');
+          return;
+        }
+
+        const time = new Date();
+        const prev = localStorage.getItem('date');
+        const date = String(time.getMonth() + 1) + '.' + String(time.getDate());
+
+        const now = time.getTime();
+        let sunrise;
+        let sunset;
+
+        function setBodyClass() {
+          if (now > sunrise && now < sunset) return;
+          document.body.classList.add('dark');
+        }
+
+        if (date !== prev) {
+          fetch('https://api.ipgeolocation.io/astronomy?apiKey=5ed37d85103e4defa5df4c5298ed5215')
+            .then((res) => res.json())
+            .then((data) => {
+              sunrise = data.sunrise.split(':').map(Number);
+              sunset = data.sunset.split(':').map(Number);
+            })
+            .catch(() => {
+              sunrise = [7, 0];
+              sunset = [19, 0];
+            })
+            .finally(() => {
+              sunrise = time.setHours(sunrise[0], sunrise[1], 0);
+              sunset = time.setHours(sunset[0], sunset[1], 0);
+              setBodyClass();
+              localStorage.setItem('sunrise', sunrise);
+              localStorage.setItem('sunset', sunset);
+            });
+          localStorage.setItem('date', date);
+        } else {
+          sunrise = Number(localStorage.getItem('sunrise'));
+          sunset = Number(localStorage.getItem('sunset'));
+          setBodyClass();
+        }
+      }
+    </script>
+  </head>
+  <body class="single">
+    <script>
+      setTheme();
+    </script>
+    <header class="header">
+      <nav class="nav">
+        <p class="logo"><a href="http://localhost:1313">NIEMTEC</a></p>
+        <ul class="menu">
+          <li>
+            <a href="/posts/">Blog</a>
+          </li>
+          <li>
+            <a href="https://mind-graph-niemtec.netlify.app/">Notes</a>
+          </li>
+          <li>
+            <a href="https://github.com/niemtec/">Code</a>
+          </li>
+          <li>
+            <a href="/reading-list/">Reading List</a>
+          </li>
+          <li>
+            <a href="/about/">About</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+
+
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">Feynman Technique</h1>
+    <div class="post-meta">
+      November 6, 2020
+    </div>
+  </header>
+  <div class="post-content"><p>Richard Feynman, a famous physicist, thought himself “an ordinary person who studied hard”. He believed that anyone was capable of learning given sufficient effort regardless of the complexity of the subject or percieved level of intelligence.</p>
+<blockquote>
+<p>“There is no miracle people. It just happens they got interested in this thing and they learned all this stuff. There is just people.”
+(R. Feynman)</p>
+</blockquote>
+<p>He believed that what made him so accomplished was just the systematic way in which he identified the things he didn’t know and then threw himself into understanding them inside and out.</p>
+<h2 id="what-is-the-feynman-technique">What is the Feynman Technique?</h2>
+<p>The Feynman Technique doesn’t let us fool ourselves into thinking we are masters of a subject when we are really amateurs. Each step of the process forces us to confront what we don’t know, engage directly with the material, and clarify our understanding.</p>
+<p>It consists of <strong>four</strong> steps which can, in theory, be used to learn any topic. It rejects memorisation and automated recall (which doesn’t sufficiently engage your brain).</p>
+<p>The technique encourages learning because it involves breaking down the concept or idea and writing it down in plain and clear language (simple enough for a kid to understand) which forces you to understand the topic at a much deeper level.</p>
+<h2 id="core-steps">Core Steps</h2>
+<ol>
+<li><strong>Choose a concept to learn</strong>: Select a topic you’re interested in learning about and write it at the top of a blank page in a notebook</li>
+<li><strong>Teach it to someone</strong>: Pretend you are teaching it to a child. Write your explanation down or say it out loud in a way that a child could understand it</li>
+<li><strong>Return to the material if you get stuck</strong>: Identify any gaps in your own understanding that show up when you try to simplify the concept. Go back to source material and find the information you need</li>
+<li><strong>Simplify explanations and create analogies</strong>: Review and simplify your explanation again. Streamline your notes and explanation, further clarifying the topic until it seems obvious</li>
+</ol>
+<h2 id="choose-a-concept-to-learn">Choose a Concept to Learn</h2>
+<p>Select a topic that is small enough that it can reasonably fit onto one or several pages.</p>
+<ul>
+<li><strong>You face what you don’t know</strong>: By writing the topic down on an empty page you visually acknowledge that you are starting from scratch</li>
+<li><strong>You need to be specific</strong>: Writing down explicitly what you don’t know provides you with a starting point</li>
+<li><strong>You have to start small</strong>: You really only have a page (or a few) to fill up with information. You can’t fit everything on it</li>
+</ul>
+<h2 id="explain-it-to-yourself">Explain it to Yourself</h2>
+<blockquote>
+<p>“The first principle is that you must not fool yourself and you are the easiest person to fool.”
+(Richard Feynman)</p>
+</blockquote>
+<p>A classic learning mistake is reading an article or textbook and considering our learning complete. In reality, <a href="https://andymatuschak.org/books/">reading is not understanding</a> — true understanding requires a more active process like teaching. Start out by formally teaching yourself.</p>
+<p>Write out a summary in your own words without looking at your notes or explain it to yourself out loud. Teaching also initiates a feedback loop, where critique or questions can help us learn and sharpen our thinking.</p>
+<ul>
+<li><strong>It makes it harder to trick yourself</strong>: When you truly explain something, you encounter the holes in your reasoning and gaps in knowledge</li>
+<li><strong>You build confidence</strong>: When you truly understand something, it clicks. You can explain it forward and backwards, pointing out exceptions and spotting logical inconsistencies</li>
+</ul>
+<h2 id="return-to-source-material">Return to Source Material</h2>
+<p>Learning should be iterative, often learning something challenging takes several attempts. When we find gaps in our knowledge, revisiting the primary and secondary sources can help solidify what we’re learning.</p>
+<p>Getting it right will likely take several iterations. That’s a good thing; the more you refine your explanations, the more your understanding will deepen.</p>
+<ul>
+<li><strong>Learning becomes an interactive process</strong>: Rather than viewing learning as one-and-done, this step gives you permission to continuously refresh your knowledge</li>
+<li><strong>You’re actively engaged</strong>: Using sources to polish our own explanations and models is an active process. When we learn passively, committing details to memory is more challenging</li>
+<li><strong>You expand your knowledge base</strong>: Paradoxically, the more we learn, the more our capacity to learn increases</li>
+</ul>
+<h2 id="simplify-your-explanations">Simplify Your Explanations</h2>
+<p>Richard Feynman, a famous physicist, thought himself “an ordinary person who studied hard”. He believed that anyone was capable of learning given sufficient effort regardless of the complexity of the subject or percieved level of intelligence.</p>
+<blockquote>
+<p>“There is no miracle people. It just happens they got interested in this thing and they learned all this stuff. There is just people.”
+(R. Feynman)</p>
+</blockquote>
+<p>He believed that what made him so accomplished was just the systematic way in which he identified the things he didn’t know and then threw himself into understanding them inside and out.</p>
+</div>
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/learning">learning</a></li>
+      <li><a href="http://localhost:1313/tags/productivity">productivity</a></li>
+    </ul>
+  </footer>
+</article></main>
+<footer class="footer">
+  <span>Powered by GitHub</span>
+  
+<i class="fab fa-github"></i> <i class="fas fa-ellipsis-h"></i> <i class="far fa-copyright"></i>
+  <span> 2020 <a href="http://localhost:1313"></a>
+  </footer>
+  <script src="http://localhost:1313/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad();
+  </script>
+</body>
+</html>
+

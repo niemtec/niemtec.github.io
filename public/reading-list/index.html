@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500&family=Fira+Code:wght@400;500;600&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/09096549bd.js" crossorigin="anonymous"></script>
+
+    
+    <title>Reading List - NIEMTEC</title>
+    
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <link href="http://localhost:1313/an-old-hope.min.css" rel="stylesheet">
+    <link href="http://localhost:1313/style.css" rel="stylesheet">
+    <link href="http://localhost:1313/custom.css" rel="stylesheet">
+    
+    <link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+    <link rel="icon" href="http://localhost:1313/favicon.ico">
+    <meta name="generator" content="Hugo 0.78.1" />
+    
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:1313/reading-list/index.xml" title="NIEMTEC" />
+    
+    
+    <script>
+      function setTheme() {
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          document.body.classList.add('dark');
+          return;
+        }
+
+        const time = new Date();
+        const prev = localStorage.getItem('date');
+        const date = String(time.getMonth() + 1) + '.' + String(time.getDate());
+
+        const now = time.getTime();
+        let sunrise;
+        let sunset;
+
+        function setBodyClass() {
+          if (now > sunrise && now < sunset) return;
+          document.body.classList.add('dark');
+        }
+
+        if (date !== prev) {
+          fetch('https://api.ipgeolocation.io/astronomy?apiKey=5ed37d85103e4defa5df4c5298ed5215')
+            .then((res) => res.json())
+            .then((data) => {
+              sunrise = data.sunrise.split(':').map(Number);
+              sunset = data.sunset.split(':').map(Number);
+            })
+            .catch(() => {
+              sunrise = [7, 0];
+              sunset = [19, 0];
+            })
+            .finally(() => {
+              sunrise = time.setHours(sunrise[0], sunrise[1], 0);
+              sunset = time.setHours(sunset[0], sunset[1], 0);
+              setBodyClass();
+              localStorage.setItem('sunrise', sunrise);
+              localStorage.setItem('sunset', sunset);
+            });
+          localStorage.setItem('date', date);
+        } else {
+          sunrise = Number(localStorage.getItem('sunrise'));
+          sunset = Number(localStorage.getItem('sunset'));
+          setBodyClass();
+        }
+      }
+    </script>
+  </head>
+  <body class="list">
+    <script>
+      setTheme();
+    </script>
+    <header class="header">
+      <nav class="nav">
+        <p class="logo"><a href="http://localhost:1313">NIEMTEC</a></p>
+        <ul class="menu">
+          <li>
+            <a href="/posts/">Blog</a>
+          </li>
+          <li>
+            <a href="https://mind-graph-niemtec.netlify.app/">Notes</a>
+          </li>
+          <li>
+            <a href="https://github.com/niemtec/">Code</a>
+          </li>
+          <li>
+            <a href="/reading-list/">Reading List</a>
+          </li>
+          <li>
+            <a href="/about/">About</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+
+<header class="page-header">
+  <h1>Reading List</h1></header>
+
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>21 Lessons for the 21st Century</h2>
+  </header>
+  <section class="entry-content">
+   <p></p>
+  </section>
+  <footer class="entry-footer">
+    
+  </footer>
+  <a class="entry-link" href="http://localhost:1313/reading-list/21-lessons-for-21st-century/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Homo Deus: A Brief History of Tomorrow</h2>
+  </header>
+  <section class="entry-content">
+   <p></p>
+  </section>
+  <footer class="entry-footer">
+    
+  </footer>
+  <a class="entry-link" href="http://localhost:1313/reading-list/homo-deus/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Reasons to Stay Alive</h2>
+  </header>
+  <section class="entry-content">
+   <p></p>
+  </section>
+  <footer class="entry-footer">
+    
+  </footer>
+  <a class="entry-link" href="http://localhost:1313/reading-list/reasons-to-stay-alive/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>The Alchemist</h2>
+  </header>
+  <section class="entry-content">
+   <p></p>
+  </section>
+  <footer class="entry-footer">
+    
+  </footer>
+  <a class="entry-link" href="http://localhost:1313/reading-list/alchemist/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>The Order of Time</h2>
+  </header>
+  <section class="entry-content">
+   <p></p>
+  </section>
+  <footer class="entry-footer">
+    
+  </footer>
+  <a class="entry-link" href="http://localhost:1313/reading-list/order-of-time/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>The Organised Mind: Thinking Straight in the Age of Information Overload</h2>
+  </header>
+  <section class="entry-content">
+   <p></p>
+  </section>
+  <footer class="entry-footer">
+    
+  </footer>
+  <a class="entry-link" href="http://localhost:1313/reading-list/organised-mind/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>Why We Sleep: The New Science of Sleep and Dreams</h2>
+  </header>
+  <section class="entry-content">
+   <p></p>
+  </section>
+  <footer class="entry-footer">
+    
+  </footer>
+  <a class="entry-link" href="http://localhost:1313/reading-list/why-we-sleep/"></a>
+</article></main>
+<footer class="footer">
+  <span>Powered by GitHub</span>
+  
+<i class="fab fa-github"></i> <i class="fas fa-ellipsis-h"></i> <i class="far fa-copyright"></i>
+  <span> 2020 <a href="http://localhost:1313"></a>
+  </footer>
+  <script src="http://localhost:1313/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad();
+  </script>
+</body>
+</html>
+

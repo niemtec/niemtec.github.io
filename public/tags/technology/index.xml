@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>technology on NIEMTEC</title>
+    <link>http://localhost:1313/tags/technology/</link>
+    <description>Recent content in technology on NIEMTEC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 11 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contact Discovery Abuse</title>
+      <link>http://localhost:1313/posts/contact-discovery-abuse/</link>
+      <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/contact-discovery-abuse/</guid>
+      <description>Major messaging platforms such as WhatsApp offer an automated service for synchronising the contents of your address book to determine which of your contacts also use their services. This is used for mapping of your address book contents onto existing users in order for you to be able to send them a message through the service. It’s a necessary part of WhatsApp’s operation as without it, you wouldn’t be able to tell who else in your contact list uses the app.</description>
+    </item>
+    
+  </channel>
+</rss>

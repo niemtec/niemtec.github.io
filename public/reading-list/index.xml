@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reading List on NIEMTEC</title>
+    <link>http://localhost:1313/reading-list/</link>
+    <description>Recent content in Reading List on NIEMTEC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language><atom:link href="http://localhost:1313/reading-list/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>21 Lessons for the 21st Century</title>
+      <link>http://localhost:1313/reading-list/21-lessons-for-21st-century/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/reading-list/21-lessons-for-21st-century/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Homo Deus: A Brief History of Tomorrow</title>
+      <link>http://localhost:1313/reading-list/homo-deus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/reading-list/homo-deus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reasons to Stay Alive</title>
+      <link>http://localhost:1313/reading-list/reasons-to-stay-alive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/reading-list/reasons-to-stay-alive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Alchemist</title>
+      <link>http://localhost:1313/reading-list/alchemist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/reading-list/alchemist/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Order of Time</title>
+      <link>http://localhost:1313/reading-list/order-of-time/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/reading-list/order-of-time/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Organised Mind: Thinking Straight in the Age of Information Overload</title>
+      <link>http://localhost:1313/reading-list/organised-mind/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/reading-list/organised-mind/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Why We Sleep: The New Science of Sleep and Dreams</title>
+      <link>http://localhost:1313/reading-list/why-we-sleep/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/reading-list/why-we-sleep/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

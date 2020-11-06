@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500&family=Fira+Code:wght@400;500;600&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/09096549bd.js" crossorigin="anonymous"></script>
+
+    
+    <title>Remote Work Guidelines - NIEMTEC</title>
+    
+    <meta name="description" content="Remote working has become the new norm in many industries, employers and employees alike had to adapt overnight to working from their bedrooms and kitchen tables. Companies who specialise in the remote worker model, like GitHub, have shared their experiences with those who found their workflow turned upside-down.
+Asynchronous Communications Asynchronous communication is designed to benefit teams which are spread across numerous timezones; with your teammates spread across the globe it can be difficult to figure out the appropriate time to schedule a meeting or get an idea of when you can get a response.">
+    <meta name="author" content="">
+    
+    <link href="http://localhost:1313/an-old-hope.min.css" rel="stylesheet">
+    <link href="http://localhost:1313/style.css" rel="stylesheet">
+    <link href="http://localhost:1313/custom.css" rel="stylesheet">
+    
+    <link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+    <link rel="icon" href="http://localhost:1313/favicon.ico">
+    <meta name="generator" content="Hugo 0.78.1" />
+    
+    
+    
+    <script>
+      function setTheme() {
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          document.body.classList.add('dark');
+          return;
+        }
+
+        const time = new Date();
+        const prev = localStorage.getItem('date');
+        const date = String(time.getMonth() + 1) + '.' + String(time.getDate());
+
+        const now = time.getTime();
+        let sunrise;
+        let sunset;
+
+        function setBodyClass() {
+          if (now > sunrise && now < sunset) return;
+          document.body.classList.add('dark');
+        }
+
+        if (date !== prev) {
+          fetch('https://api.ipgeolocation.io/astronomy?apiKey=5ed37d85103e4defa5df4c5298ed5215')
+            .then((res) => res.json())
+            .then((data) => {
+              sunrise = data.sunrise.split(':').map(Number);
+              sunset = data.sunset.split(':').map(Number);
+            })
+            .catch(() => {
+              sunrise = [7, 0];
+              sunset = [19, 0];
+            })
+            .finally(() => {
+              sunrise = time.setHours(sunrise[0], sunrise[1], 0);
+              sunset = time.setHours(sunset[0], sunset[1], 0);
+              setBodyClass();
+              localStorage.setItem('sunrise', sunrise);
+              localStorage.setItem('sunset', sunset);
+            });
+          localStorage.setItem('date', date);
+        } else {
+          sunrise = Number(localStorage.getItem('sunrise'));
+          sunset = Number(localStorage.getItem('sunset'));
+          setBodyClass();
+        }
+      }
+    </script>
+  </head>
+  <body class="single">
+    <script>
+      setTheme();
+    </script>
+    <header class="header">
+      <nav class="nav">
+        <p class="logo"><a href="http://localhost:1313">NIEMTEC</a></p>
+        <ul class="menu">
+          <li>
+            <a href="/posts/">Blog</a>
+          </li>
+          <li>
+            <a href="https://mind-graph-niemtec.netlify.app/">Notes</a>
+          </li>
+          <li>
+            <a href="https://github.com/niemtec/">Code</a>
+          </li>
+          <li>
+            <a href="/reading-list/">Reading List</a>
+          </li>
+          <li>
+            <a href="/about/">About</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+
+
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">Remote Work Guidelines</h1>
+    <div class="post-meta">
+      August 6, 2020
+    </div>
+  </header>
+  <div class="post-content"><p>Remote working has become the new norm in many industries, employers and employees alike had to adapt overnight to working from their bedrooms and kitchen tables. Companies who specialise in the remote worker model, like GitHub, have shared their experiences with those who found their workflow turned upside-down.</p>
+<h2 id="asynchronous-communications">Asynchronous Communications</h2>
+<p>Asynchronous communication is designed to benefit teams which are spread across numerous timezones; with your teammates spread across the globe it can be difficult to figure out the appropriate time to schedule a meeting or get an idea of when you can get a response.
+GitHub found that distributed workflows tend to produce better results than their traditional counterparts, much in a way that Wikipedia has become a more robust source of knowledge compared to Encyclopaedia Britannica. Asynchronous communication utilises tools like Slack to create virtual spaces which eliminate the “you had to be there” aspects of working in conventional workspaces.
+Because work is happening across a wide band of time, it removes the social norms of receiving instant replies to questions and distractions throughout the work day which you are likely to experience if your whole team works on the same schedule.</p>
+<h3 id="translating-in-person-conversations-to-async">Translating In-Person Conversations to Async?</h3>
+<p>Don’t ping, just ask.
+When it comes to asking questions, use private direct messages in Slack sparingly and only when necessary instead preferring channels whenever possible.
+Using public channels is also a great way to capture and surface organisational knowledge for others that might have the same question.
+Be human and sincere, mind your words because they are important.</p>
+<h2 id="meaningful-discussions">Meaningful Discussions</h2>
+<p>Sometimes you need more meaningful exchanges, something richer than a comment on the merge request or a general DM. The key here is to post it where the team can discuss it.
+Posting your thoughts, questions, concerns and ideas before a conversation to give your peers enough time to digest and reflect on what you are saying — keeping in mind that people consume information at different speeds.
+Tools like video chat offer a more familiar forum for brainstorming and planning with the results recorded in shared documents, small groups can utilise video or voice conferences to collaborate on their projects.</p>
+<h2 id="feedback">Feedback</h2>
+<p>Providing feedback can be tricky, especially if you are a young developer starting out, you might be apprehensive to speak up. However you should assume for a moment that you have a potential say in all that your company does. Ask yourself what issues can <strong>you</strong> contribute to the most? Where would <strong>you</strong> have the most impact?
+That being said, you ought to think twice before providing your opinion on issues outside of your area of expertise, especially when you do not have the full context or are unable to follow through to do what is necessary.
+You should only comment if you have something to add to the discussion, so unless what you are posting moves the issue closer to resolution, don’t press the send button.</p>
+<h2 id="context">Context</h2>
+<p>Always provide  context. Context is important. Courteous collaborators provide their teammates with the necessary context   to get them up-to-speed on the discussion and decide what action they need to take. Your task is to minimise the cognitive burden by absorbing the complexity on their behalf, and be clear about what is being asked of them.</p>
+</div>
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/productivity">productivity</a></li>
+    </ul>
+  </footer>
+</article></main>
+<footer class="footer">
+  <span>Powered by GitHub</span>
+  
+<i class="fab fa-github"></i> <i class="fas fa-ellipsis-h"></i> <i class="far fa-copyright"></i>
+  <span> 2020 <a href="http://localhost:1313"></a>
+  </footer>
+  <script src="http://localhost:1313/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad();
+  </script>
+</body>
+</html>
+

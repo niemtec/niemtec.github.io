@@ -1,0 +1,35 @@
+baseURL = "http://localhost:1313"
+languageCode = "en-gb"
+title = "NIEMTEC"
+theme = "paper"
+
+[menu]
+    [[menu.main]]
+    identifier = "Blog"
+    name = "Blog"
+    weight = 1
+    url = "/posts/"
+
+    [[menu.main]]
+    identifier = "Notes"
+    name = "Notes"
+    weight = 2
+    url = "https://mind-graph-niemtec.netlify.app/"
+
+    [[menu.main]]
+    identifier = "Code"
+    name = "Code"
+    weight = 3
+    url = "https://github.com/niemtec/"
+
+    [[menu.main]]
+    identifier = "Reading List"
+    name = "Reading List"
+    weight = 4
+    url = "/reading-list/"
+
+    [[menu.main]]
+    identifier = "About"
+    name = "About"
+    weight = 5
+    url = "/about/"
