@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500&family=Fira+Code:wght@400;500;600&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/09096549bd.js" crossorigin="anonymous"></script>
+
+    
+    <title>The Social Pandemic - NIEMTEC</title>
+    
+    <meta name="description" content="Our society is changing. The coronavirus pandemic forced us into a new, chaotic, environment of cancelled social plans and closed doors as country after country went into lockdown. Scientists suggested that locking down is the most effective way to curb the growth of the virus and prevent further infections and outbreaks, but people are social creatures which means they crave contact with others — people need people to benefit their mental health.">
+    <meta name="author" content="">
+    
+    <link href="https://niemtec.com/an-old-hope.min.css" rel="stylesheet">
+    <link href="https://niemtec.com/style.css" rel="stylesheet">
+    <link href="https://niemtec.com/custom.css" rel="stylesheet">
+    
+    <link rel="apple-touch-icon" href="https://niemtec.com/apple-touch-icon.png">
+    <link rel="icon" href="https://niemtec.com/favicon.ico">
+    <meta name="generator" content="Hugo 0.78.1" />
+    
+    
+    
+    <script>
+      function setTheme() {
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          document.body.classList.add('dark');
+          return;
+        }
+
+        const time = new Date();
+        const prev = localStorage.getItem('date');
+        const date = String(time.getMonth() + 1) + '.' + String(time.getDate());
+
+        const now = time.getTime();
+        let sunrise;
+        let sunset;
+
+        function setBodyClass() {
+          if (now > sunrise && now < sunset) return;
+          document.body.classList.add('dark');
+        }
+
+        if (date !== prev) {
+          fetch('https://api.ipgeolocation.io/astronomy?apiKey=5ed37d85103e4defa5df4c5298ed5215')
+            .then((res) => res.json())
+            .then((data) => {
+              sunrise = data.sunrise.split(':').map(Number);
+              sunset = data.sunset.split(':').map(Number);
+            })
+            .catch(() => {
+              sunrise = [7, 0];
+              sunset = [19, 0];
+            })
+            .finally(() => {
+              sunrise = time.setHours(sunrise[0], sunrise[1], 0);
+              sunset = time.setHours(sunset[0], sunset[1], 0);
+              setBodyClass();
+              localStorage.setItem('sunrise', sunrise);
+              localStorage.setItem('sunset', sunset);
+            });
+          localStorage.setItem('date', date);
+        } else {
+          sunrise = Number(localStorage.getItem('sunrise'));
+          sunset = Number(localStorage.getItem('sunset'));
+          setBodyClass();
+        }
+      }
+    </script>
+  </head>
+  <body class="single">
+    <script>
+      setTheme();
+    </script>
+    <header class="header">
+      <nav class="nav">
+        <p class="logo"><a href="https://niemtec.com">NIEMTEC</a></p>
+        <ul class="menu">
+          <li>
+            <a href="/posts/">Blog</a>
+          </li>
+          <li>
+            <a href="https://mind-graph-niemtec.netlify.app/">Notes</a>
+          </li>
+          <li>
+            <a href="https://github.com/niemtec/">Code</a>
+          </li>
+          <li>
+            <a href="/about/">About</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+
+
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">The Social Pandemic</h1>
+    <div class="post-meta">
+      November 12, 2020
+    </div>
+  </header>
+  <div class="post-content"><p>Our society is changing. The coronavirus pandemic forced us into a new, chaotic, environment of cancelled social plans and closed doors as country after country went into lockdown. Scientists suggested that locking down is the most effective way to curb the growth of the virus and prevent further infections and outbreaks, but people are social creatures which means they crave contact with others — people need people to benefit their mental health.</p>
+<p>Lockdown meant that we would not see our families, friends and colleagues for weeks. This separation caused a gradual buildup of pressure on our social needs as we desperately tried to replace nights out with Zoom calls and group chats. Our physical lives had to shift into the online world.</p>
+<p>In this bittersweet moment, social media became even more important; we flocked to our virtual communities to salvage any sense of connection we could find even if the warm smile of your friend was replaced by an emoji. Games like Animal Crossing became our refuge where we could spent time building up virtual islands and visiting those of our friend’s. Social interactions with our work colleagues have been replaced with Tim Nook’s offers to increase the size of our house (naturally for a handsome fee) — you might argue that, despite everything, we continued to interact with our colleagues since working from home gained momentum and standup calls are a thing now, however it’s not the same as a quick chat whilst making a coffee in the morning or the general hubbub of the office space.</p>
+<p>The way in which we interact with each other dictates how much social “energy” we refill during the exchange; spending time with your friend face-to-face is far more beneficial to your mental wellbeing than talking to them on FaceTime which is more beneficial still than a phone call, which is better than a text (you get the idea, the less effort you have to put in, the smaller the return on investment.)
+With the looming shadow of national lockdown our social palette of choices shrunk drastically and the replacements were able to provide <em>some</em> sustenance, but a Zoom call is not the same as going for a pint with your friends to a lively pub.</p>
+<p>What is more worrying is the way in which we form new relationships since meeting new people has become more difficult as dates and parties have been replaced with even more chats and video calls — dissolving away that magical part of meeting another person. Starting a new job can be daunting at the best of times, but it can be made even more challenging by the fact that the offices are empty and introducing yourself to your new colleagues has to be done through a computer screen rather than in person. The loss of human warmth had a negative impact on our sense of belonging which will likely keep diminishing as we stay inside our houses, not only braving the “new normal” of the COVID-19 world but that of a socially distanced existence and potentially more time away from our loved ones than we are comfortable with.</p>
+<p>The lockdown period can be a dark and lonely time, the feeling of isolation is common and you might find it challenging to reach out. However, <em>just because you are alone does not mean that you have to be lonely</em>, despite the loss of human warmth you can still venture outside for walks and catch up with your friends as best you can (whilst maintaining your safe distance).
+What is important is that you leave your room once in a while to give your mind a break and avoid the feeling of being trapped inside. Catchup with your friends whenever the opportunity arises and keep checking on each other. After all, we are all in this together since it is the “new normal”.</p>
+</div>
+</article></main>
+<footer class="footer">
+  <span>Powered by GitHub</span>
+  
+<i class="fab fa-github"></i> <i class="fas fa-ellipsis-h"></i> <i class="far fa-copyright"></i>
+  <span> 2020 <a href="https://niemtec.com"></a>
+  </footer>
+  <script src="https://niemtec.com/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad();
+  </script>
+</body>
+</html>
+

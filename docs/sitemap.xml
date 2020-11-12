@@ -3,17 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://niemtec.com/posts/</loc>
+    <lastmod>2020-11-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://niemtec.com/posts/social-pandemic/</loc>
+    <lastmod>2020-11-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://niemtec.com/posts/feynman-technique/</loc>
     <lastmod>2020-11-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://niemtec.com/tags/learning/</loc>
-    <lastmod>2020-11-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://niemtec.com/posts/</loc>
     <lastmod>2020-11-06T00:00:00+00:00</lastmod>
   </url>
   

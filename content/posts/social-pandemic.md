@@ -1,0 +1,18 @@
+---
+title: The Social Pandemic
+date: 2020-11-12
+draft: false
+---
+Our society is changing. The coronavirus pandemic forced us into a new, chaotic, environment of cancelled social plans and closed doors as country after country went into lockdown. Scientists suggested that locking down is the most effective way to curb the growth of the virus and prevent further infections and outbreaks, but people are social creatures which means they crave contact with others — people need people to benefit their mental health.
+
+Lockdown meant that we would not see our families, friends and colleagues for weeks. This separation caused a gradual buildup of pressure on our social needs as we desperately tried to replace nights out with Zoom calls and group chats. Our physical lives had to shift into the online world.
+
+In this bittersweet moment, social media became even more important; we flocked to our virtual communities to salvage any sense of connection we could find even if the warm smile of your friend was replaced by an emoji. Games like Animal Crossing became our refuge where we could spent time building up virtual islands and visiting those of our friend’s. Social interactions with our work colleagues have been replaced with Tim Nook’s offers to increase the size of our house (naturally for a handsome fee) — you might argue that, despite everything, we continued to interact with our colleagues since working from home gained momentum and standup calls are a thing now, however it’s not the same as a quick chat whilst making a coffee in the morning or the general hubbub of the office space.
+
+The way in which we interact with each other dictates how much social “energy” we refill during the exchange; spending time with your friend face-to-face is far more beneficial to your mental wellbeing than talking to them on FaceTime which is more beneficial still than a phone call, which is better than a text (you get the idea, the less effort you have to put in, the smaller the return on investment.)
+With the looming shadow of national lockdown our social palette of choices shrunk drastically and the replacements were able to provide *some* sustenance, but a Zoom call is not the same as going for a pint with your friends to a lively pub. 
+
+What is more worrying is the way in which we form new relationships since meeting new people has become more difficult as dates and parties have been replaced with even more chats and video calls — dissolving away that magical part of meeting another person. Starting a new job can be daunting at the best of times, but it can be made even more challenging by the fact that the offices are empty and introducing yourself to your new colleagues has to be done through a computer screen rather than in person. The loss of human warmth had a negative impact on our sense of belonging which will likely keep diminishing as we stay inside our houses, not only braving the “new normal” of the COVID-19 world but that of a socially distanced existence and potentially more time away from our loved ones than we are comfortable with. 
+
+The lockdown period can be a dark and lonely time, the feeling of isolation is common and you might find it challenging to reach out. However, *just because you are alone does not mean that you have to be lonely*, despite the loss of human warmth you can still venture outside for walks and catch up with your friends as best you can (whilst maintaining your safe distance). 
+What is important is that you leave your room once in a while to give your mind a break and avoid the feeling of being trapped inside. Catchup with your friends whenever the opportunity arises and keep checking on each other. After all, we are all in this together since it is the “new normal”.
